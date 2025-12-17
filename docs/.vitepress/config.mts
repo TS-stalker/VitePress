@@ -7,16 +7,41 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "首页", link: "/" },
+      { text: "文档说明", link: "/DipuOneProductManual" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "产品介绍",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "产品概述",
+            link: "/DipuOneProductManual",
+          },
+        ],
+      },
+      {
+        text: "管理平台",
+        items: [
+          {
+            text: "数据看板",
+            items: [
+              {
+                text: "数据看板",
+                link: "/ManagementPlatform/DataBoard/databoard",
+              },
+            ],
+          },
+          {
+            text: "组态设计",
+            items: [
+              {
+                text: "空间管理",
+                link: "/ManagementPlatform/ConfigurationDesign/spacemanagement",
+              },
+            ],
+          },
         ],
       },
     ],
