@@ -2,52 +2,112 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "DipiOne产品手册",
-  description: "A VitePress Site",
+  cleanUrls: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "首页", link: "/" },
-      { text: "文档说明", link: "/DipuOneProductManual" },
-    ],
-
-    sidebar: [
-      {
-        text: "产品介绍",
-        items: [
-          {
-            text: "产品概述",
-            link: "/DipuOneProductManual",
-          },
+    search: {
+      provider: "local",
+    },
+  },
+  locales: {
+    root: {
+      label: "简体中文",
+      lang: "zh-CN",
+      title: "DipiOne产品手册",
+      description: "A VitePress Site",
+      themeConfig: {
+        nav: [
+          { text: "首页", link: "/" },
+          { text: "文档说明", link: "/DipuOneProductManual" },
         ],
-      },
-      {
-        text: "管理平台",
-        items: [
+        sidebar: [
           {
-            text: "数据看板",
+            text: "产品介绍",
+            items: [
+              {
+                text: "产品概述",
+                link: "/DipuOneProductManual",
+              },
+            ],
+          },
+          {
+            text: "管理平台",
             items: [
               {
                 text: "数据看板",
-                link: "/ManagementPlatform/DataBoard/databoard",
+                items: [
+                  {
+                    text: "数据看板",
+                    link: "/ManagementPlatform/DataBoard/databoard",
+                  },
+                  {
+                    text: "下拉框",
+                    link: "/ManagementPlatform/DataBoard/dropdown",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            text: "组态设计",
-            items: [
               {
-                text: "空间管理",
-                link: "/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                text: "组态设计",
+                items: [
+                  {
+                    text: "空间管理",
+                    link: "/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                  },
+                ],
               },
             ],
           },
         ],
       },
-    ],
-
-    // socialLinks: [
-    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    // ],
+    },
+    en: {
+      label: "English",
+      lang: "en-US",
+      title: "DipiOne Product Manual",
+      description: "A VitePress Site",
+      themeConfig: {
+        nav: [
+          { text: "Home", link: "/en/" },
+          { text: "Documentation", link: "/en/DipuOneProductManual" },
+        ],
+        sidebar: [
+          {
+            text: "Product Introduction",
+            items: [
+              {
+                text: "Product Overview",
+                link: "/en/DipuOneProductManual",
+              },
+            ],
+          },
+          {
+            text: "Management Platform",
+            items: [
+              {
+                text: "Data Dashboard",
+                items: [
+                  {
+                    text: "Data Dashboard",
+                    link: "/en/ManagementPlatform/DataBoard/databoard",
+                  },
+                  {
+                    text: "Dropdown",
+                    link: "/en/ManagementPlatform/DataBoard/dropdown",
+                  },
+                ],
+              },
+              {
+                text: "Configuration Design",
+                items: [
+                  {
+                    text: "Space Management",
+                    link: "/en/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 });
