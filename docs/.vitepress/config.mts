@@ -350,8 +350,10 @@ export default defineConfig({
           { text: "Documentation", link: "/en/DipuOneProductManual" },
         ],
         sidebar: [
+          // Product Introduction
           {
             text: "Product Introduction",
+            collapsed: false,
             items: [
               {
                 text: "Product Overview",
@@ -359,11 +361,18 @@ export default defineConfig({
               },
             ],
           },
+          // Management Platform
           {
             text: "Management Platform",
+            collapsed: false,
             items: [
               {
+                text: "Project List",
+                link: "/en/ManagementPlatform/projectlist",
+              },
+              {
                 text: "Data Dashboard",
+                collapsed: true,
                 items: [
                   {
                     text: "Data Dashboard",
@@ -372,11 +381,279 @@ export default defineConfig({
                 ],
               },
               {
+                text: "Data Analysis",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Dataset",
+                    link: "/en/ManagementPlatform/DataAnalysis/dataset",
+                  },
+                  {
+                    text: "Report Design",
+                    link: "/en/ManagementPlatform/DataAnalysis/reportdesign",
+                  },
+                ],
+              },
+              {
+                text: "Open Data",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Data Service",
+                    link: "/en/ManagementPlatform/OpenData/dataservice",
+                  },
+                ],
+              },
+              {
                 text: "Configuration Design",
+                collapsed: true,
                 items: [
                   {
                     text: "Space Management",
                     link: "/en/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                  },
+                  {
+                    text: "Device Management",
+                    link: "/en/ManagementPlatform/ConfigurationDesign/devicemanagement",
+                  },
+                  {
+                    text: "Connection Management",
+                    link: "/en/ManagementPlatform/ConfigurationDesign/connectionmanagement",
+                  },
+                ],
+              },
+              {
+                text: "System Settings",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Internationalization",
+                    link: "/en/ManagementPlatform/SystemConfiguration/internationalization",
+                  },
+                  {
+                    text: "Menu Management",
+                    link: "/en/ManagementPlatform/SystemConfiguration/menumanagement",
+                  },
+                  {
+                    text: "Permission Management",
+                    link: "/en/ManagementPlatform/SystemConfiguration/permissionmanagement",
+                  },
+                  {
+                    text: "Task Management",
+                    link: "/en/ManagementPlatform/SystemConfiguration/taskmanagement",
+                  },
+                ],
+              },
+            ],
+          },
+          // Screen Configuration
+          {
+            text: "Screen Configuration",
+            collapsed: true,
+            items: [
+              {
+                text: "Controls",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Alarms",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Alarm List",
+                        link: "/en/ScreenConfiguration/Controls/Alarms/alarmlist",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Buttons",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Button",
+                        link: "/en/ScreenConfiguration/Controls/Buttons/button",
+                      },
+                      {
+                        text: "Checkbox",
+                        link: "/en/ScreenConfiguration/Controls/Buttons/checkbox",
+                      },
+                      {
+                        text: "Radio Button",
+                        link: "/en/ScreenConfiguration/Controls/Buttons/radiobutton",
+                      },
+                      {
+                        text: "Status Button",
+                        link: "/en/ScreenConfiguration/Controls/Buttons/statusbutton",
+                      },
+                      {
+                        text: "Navigation Menu",
+                        link: "/en/ScreenConfiguration/Controls/Buttons/navigationmenu",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Tables",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Variable List",
+                        link: "/en/ScreenConfiguration/Controls/Charts/variablelist",
+                      },
+                      {
+                        text: "Historical Retrieval",
+                        link: "/en/ScreenConfiguration/Controls/Charts/historicalretrieval",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Display",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Text Label",
+                        link: "/en/ScreenConfiguration/Controls/Display/textlabel",
+                      },
+                      {
+                        text: "Value Display",
+                        link: "/en/ScreenConfiguration/Controls/Display/valuedisplay",
+                      },
+                      {
+                        text: "Page Container",
+                        link: "/en/ScreenConfiguration/Controls/Display/pagecontainer",
+                      },
+                      {
+                        text: "Modal",
+                        link: "/en/ScreenConfiguration/Controls/Display/modal",
+                      },
+                      {
+                        text: "Iframe",
+                        link: "/en/ScreenConfiguration/Controls/Display/iframe",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Drawing",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Drawing Introduction",
+                        link: "/en/ScreenConfiguration/Controls/Drawing/drawingintroduction",
+                      },
+                      {
+                        text: "Zigzag Line",
+                        link: "/en/ScreenConfiguration/Controls/Drawing/zigzagline",
+                      },
+                      {
+                        text: "Polygon",
+                        link: "/en/ScreenConfiguration/Controls/Drawing/polygon",
+                      },
+                      {
+                        text: "Pipeline",
+                        link: "/en/ScreenConfiguration/Controls/Drawing/pipeline",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Events",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Event List",
+                        link: "/en/ScreenConfiguration/Controls/Events/eventlist",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Input",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Dropdown Box",
+                        link: "/en/ScreenConfiguration/Controls/Input/dropdownbox",
+                      },
+                      {
+                        text: "Text Input Box",
+                        link: "/en/ScreenConfiguration/Controls/Input/textinputbox",
+                      },
+                      {
+                        text: "Slider",
+                        link: "/en/ScreenConfiguration/Controls/Input/slider",
+                      },
+                      {
+                        text: "Calendar",
+                        link: "/en/ScreenConfiguration/Controls/Input/calendar",
+                      },
+                      {
+                        text: "Digital Input Box",
+                        link: "/en/ScreenConfiguration/Controls/Input/digitalinputbox",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Charts",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Real-time Trend",
+                        link: "/en/ScreenConfiguration/Controls/Tables/realtimetrend",
+                      },
+                      {
+                        text: "Historical Trend",
+                        link: "/en/ScreenConfiguration/Controls/Tables/historicaltrend",
+                      },
+                      {
+                        text: "Custom Curve",
+                        link: "/en/ScreenConfiguration/Controls/Tables/customcurve",
+                      },
+                      {
+                        text: "Dashboard",
+                        link: "/en/ScreenConfiguration/Controls/Tables/dashboard",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Shapes",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Shape Introduction",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/shapeintroduction",
+                      },
+                      {
+                        text: "Ellipse",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/ellipse",
+                      },
+                      {
+                        text: "Rectangle",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/rectangle",
+                      },
+                      {
+                        text: "Round Rectangle",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/roundrectangle",
+                      },
+                      {
+                        text: "Straight Line",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/straightline",
+                      },
+                      {
+                        text: "Horizontal Line",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/horizontalline",
+                      },
+                      {
+                        text: "Vertical Line",
+                        link: "/en/ScreenConfiguration/Controls/Shapes/verticalline",
+                      },
+                    ],
+                  },
+                  {
+                    text: "Others",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Historical Report",
+                        link: "/en/ScreenConfiguration/Controls/Others/historicalreport",
+                      },
+                    ],
                   },
                 ],
               },

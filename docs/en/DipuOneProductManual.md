@@ -1,17 +1,25 @@
-# DipiOne Product Manual
+### 关于本用户手册
 
-## Product Introduction
+本用户手册专门用于**DipuOne 1.0.0**版本。每个版本将有单独的用户手册。
 
-DipiOne is a comprehensive product documentation system that provides detailed guides for our management platform.
+本手册提供了DipuOne的安装、升级、功能使用的说明。左侧的侧边栏是一个目录，您可以轻松快速地浏览 DipuOne的特性、功能等。
 
-## Features
+在附录中，您将找到 DipuOne中所有系统函数的详尽列表，可以查看Demo工程的介绍。
 
-- **Data Dashboard**: Real-time data visualization and monitoring
-- **Configuration Design**: Flexible system configuration and management
-- **Multi-language Support**: Support for both Chinese and English
+### 什么是 DipuOne？
 
-## Getting Started
+基于 `IOT架构和标准Web技术的新一代组态系统。是一`个通用的用于监控和控制工业过程的应用平台，包含多种功能模块，通过这些功能模块可以帮助工业企业实现实时监控、智能控制和数据分析，从而提高生产效率和安全性。
 
-1. Navigate through the sidebar to find relevant documentation
-2. Use the search function to quickly find content
-3. Switch languages using the language selector in the top navigation
+![图片描述](./images/usermanual.png)
+
+### 安装和升级
+
+通过安装包可以轻松安装。在安装之前，请确保您的计算机系统符合DipuOne的最低系统要求。
+
+### 此版新功能
+
+您是否在寻找已经改变的东西？或者，也许您想看看我们新添加到DipuOne中功能？请查看此版本中的“版本更新说明”页面，了解此版本的详细更新内容。
+
+### **安全建议**
+
+鉴于这些授权流程的使用场景和安全性考量的差异，我们强烈建议您使用正版，这样可以提高客户端的安全性，并确保您的应用符合最佳实践要求。

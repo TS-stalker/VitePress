@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "DipiOneProductManual"
-  text: "An awesome manual"
-  tagline: My great project tagline
+  name: "DipuOne产品手册"
+  text: "用心服务客户"
+  tagline: 详细 全面 专业
   actions:
     - theme: brand
-      text: Documentation
-      link: /en/DipuOneProductManual
+      text: 文档说明
+      link: /DipuOneProductManual
 ---
