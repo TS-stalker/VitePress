@@ -16,41 +16,99 @@ export default defineConfig({
       description: "A VitePress Site",
       themeConfig: {
         nav: [
-          { text: "首页", link: "/" },
-          { text: "文档说明", link: "/DipuOneProductManual" },
+          { text: "🏠 首页", link: "/" },
+          { text: "📚 文档说明", link: "/DipuOneProductManual" },
         ],
         sidebar: [
           {
-            text: "产品介绍",
+            text: "📦 产品介绍",
+            collapsed: false,
             items: [
               {
-                text: "产品概述",
+                text: "📄 产品概述",
                 link: "/DipuOneProductManual",
               },
             ],
           },
           {
-            text: "管理平台",
+            text: "🏢 管理平台",
+            collapsed: false,
             items: [
               {
-                text: "数据看板",
+                text: "📋 项目列表",
+                link: "/ManagementPlatform/projectlist",
+              },
+              {
+                text: "📊 数据看板",
+                collapsed: true,
                 items: [
                   {
-                    text: "数据看板",
+                    text: "📈 数据看板",
                     link: "/ManagementPlatform/DataBoard/databoard",
-                  },
-                  {
-                    text: "下拉框",
-                    link: "/ManagementPlatform/DataBoard/dropdown",
                   },
                 ],
               },
               {
-                text: "组态设计",
+                text: "📈 数据分析",
+                collapsed: true,
                 items: [
                   {
-                    text: "空间管理",
+                    text: "🗃️ 数据集",
+                    link: "/ManagementPlatform/DataAnalysis/dataset",
+                  },
+                  {
+                    text: "📑 报表设计",
+                    link: "/ManagementPlatform/DataAnalysis/reportdesign",
+                  },
+                ],
+              },
+              {
+                text: "🔓 开放数据",
+                collapsed: true,
+                items: [
+                  {
+                    text: "🌐 数据服务",
+                    link: "/ManagementPlatform/OpenData/dataservice",
+                  },
+                ],
+              },
+              {
+                text: "🎨 组态设计",
+                collapsed: true,
+                items: [
+                  {
+                    text: "🏢 空间管理",
                     link: "/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                  },
+                  {
+                    text: "💻 设备管理",
+                    link: "/ManagementPlatform/ConfigurationDesign/devicemanagement",
+                  },
+                  {
+                    text: "🔌 连接管理",
+                    link: "/ManagementPlatform/ConfigurationDesign/connectionmanagement",
+                  },
+                ],
+              },
+              {
+                text: "⚙️ 系统设置",
+                collapsed: true,
+                items: [
+                  {
+                    text: "🌍 国际化",
+                    link: "/ManagementPlatform/SystemConfiguration/internationalization",
+                  },
+                  {
+                    text: "📂 菜单管理",
+                    link: "/ManagementPlatform/SystemConfiguration/menumanagement",
+                  },
+                  {
+                    text: "🔐 权限管理",
+                    link: "/ManagementPlatform/SystemConfiguration/permissionmanagement",
+                  },
+                  {
+                    text: "⏰ 任务管理",
+                    link: "/ManagementPlatform/SystemConfiguration/taskmanagement",
                   },
                 ],
               },
