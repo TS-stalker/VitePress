@@ -1,4 +1,4 @@
-### 关于本用户手册 
+### 关于本用户手册
 
 本用户手册专门用于**DipuOne 1.0.0**版本。每个版本将有单独的用户手册。
 
@@ -8,9 +8,9 @@
 
 ### 什么是 DipuOne？
 
-基于`IOT架构和标准Web技术的新一代组态系统。是一`个通用的用于监控和控制工业过程的应用平台，包含多种功能模块，通过这些功能模块可以帮助工业企业实现实时监控、智能控制和数据分析，从而提高生产效率和安全性。
+基于 `IOT架构和标准Web技术的新一代组态系统。是一`个通用的用于监控和控制工业过程的应用平台，包含多种功能模块，通过这些功能模块可以帮助工业企业实现实时监控、智能控制和数据分析，从而提高生产效率和安全性。
 
-![](https://tcs-devops.aliyuncs.com/storage/113n0eb5e915a01f92cf1a4df0a36c884ba8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTc2NjU1NTEwMCwiaWF0IjoxNzY1OTUwMzAwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExM24wZWI1ZTkxNWEwMWY5MmNmMWE0ZGYwYTM2Yzg4NGJhOCJ9.gGqjvkayMdeiN5YkrRzBnW_swvmB3HYqu2MlpzLzy50&download=image.png "")
+![图片描述](./images/usermanual.png)
 
 ### 安装和升级
 
@@ -23,6 +23,3 @@
 ### **安全建议**
 
 鉴于这些授权流程的使用场景和安全性考量的差异，我们强烈建议您使用正版，这样可以提高客户端的安全性，并确保您的应用符合最佳实践要求。
-
-
-

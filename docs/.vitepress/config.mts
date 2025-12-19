@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
     server: {
@@ -369,10 +368,6 @@ export default defineConfig({
                   {
                     text: "Data Dashboard",
                     link: "/en/ManagementPlatform/DataBoard/databoard",
-                  },
-                  {
-                    text: "Dropdown",
-                    link: "/en/ManagementPlatform/DataBoard/dropdown",
                   },
                 ],
               },

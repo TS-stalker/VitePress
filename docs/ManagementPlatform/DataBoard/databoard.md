@@ -42,4 +42,4 @@
 
 通过数据看板，用户可以快速掌握全局运行态势，识别潜在问题，并基于丰富的可视化信息做出高效决策。
 
-![](https://tcs-devops.aliyuncs.com/storage/113o6315b83a411fac24fdd8848f164ced55?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTc2NjM4NjUzNSwiaWF0IjoxNzY1NzgxNzM1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExM282MzE1YjgzYTQxMWZhYzI0ZmRkODg0OGYxNjRjZWQ1NSJ9.0U8qdjrhBfToIhELYmQ-NDLo1ojEcSNgk3nbgPuH1OY&download=image.png)
+![图片描述](../../images/ManagementPlatform/数据看板1.png)
