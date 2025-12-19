@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "DipiOne产品手册"
-  text: "一个牛逼的手册"
-  tagline: My great project tagline
+  name: "DipuOne产品手册"
+  text: "用心服务客户的手册"
+  tagline: Details Comprehensive Professional
   actions:
     - theme: brand
       text: 文档说明

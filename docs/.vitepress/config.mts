@@ -21,11 +21,14 @@ export default defineConfig({
       title: "DipiOne产品手册",
       description: "A VitePress Site",
       themeConfig: {
+        // 导航栏
         nav: [
           { text: "🏠 首页", link: "/" },
           { text: "📚 文档说明", link: "/DipuOneProductManual" },
         ],
+        // 侧边栏
         sidebar: [
+          // 产品介绍
           {
             text: "📦 产品介绍",
             collapsed: false,
@@ -36,6 +39,7 @@ export default defineConfig({
               },
             ],
           },
+          // 管理平台
           {
             text: "🏢 管理平台",
             collapsed: false,
@@ -115,6 +119,219 @@ export default defineConfig({
                   {
                     text: "⏰ 任务管理",
                     link: "/ManagementPlatform/SystemConfiguration/taskmanagement",
+                  },
+                ],
+              },
+            ],
+          },
+          // 画面组态
+          {
+            text: "🎨 画面组态",
+            collapsed: true,
+            items: [
+              {
+                text: "🕹️ 控件",
+                collapsed: true,
+                items: [
+                  {
+                    text: "🚨 报警",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📋 报警列表",
+                        link: "/ScreenConfiguration/Controls/Alarms/alarmlist",
+                      },
+                    ],
+                  },
+                  {
+                    text: "🖲️ 按钮",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "🔘 按钮",
+                        link: "/ScreenConfiguration/Controls/Buttons/button",
+                      },
+                      {
+                        text: "☑️ 复选框",
+                        link: "/ScreenConfiguration/Controls/Buttons/checkbox",
+                      },
+                      {
+                        text: "⭕ 单选按钮",
+                        link: "/ScreenConfiguration/Controls/Buttons/radiobutton",
+                      },
+                      {
+                        text: "💠 状态按钮",
+                        link: "/ScreenConfiguration/Controls/Buttons/statusbutton",
+                      },
+                      {
+                        text: "📱 导航菜单",
+                        link: "/ScreenConfiguration/Controls/Buttons/navigationmenu",
+                      },
+                    ],
+                  },
+                  {
+                    text: "📊 表格",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📝 变量列表",
+                        link: "/ScreenConfiguration/Controls/Charts/variablelist",
+                      },
+                      {
+                        text: "🕐 历史检索",
+                        link: "/ScreenConfiguration/Controls/Charts/historicalretrieval",
+                      },
+                    ],
+                  },
+                  {
+                    text: "👁️ 显示",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "🏷️ 文本标签",
+                        link: "/ScreenConfiguration/Controls/Display/textlabel",
+                      },
+                      {
+                        text: "🔢 值显示",
+                        link: "/ScreenConfiguration/Controls/Display/valuedisplay",
+                      },
+                      {
+                        text: "📦 画面容器",
+                        link: "/ScreenConfiguration/Controls/Display/pagecontainer",
+                      },
+                      {
+                        text: "💬 模态框",
+                        link: "/ScreenConfiguration/Controls/Display/modal",
+                      },
+                      {
+                        text: "🌐 内嵌网页",
+                        link: "/ScreenConfiguration/Controls/Display/iframe",
+                      },
+                    ],
+                  },
+                  {
+                    text: "✏️ 绘图",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📖 绘图介绍",
+                        link: "/ScreenConfiguration/Controls/Drawing/drawingintroduction",
+                      },
+                      {
+                        text: "📈 折线",
+                        link: "/ScreenConfiguration/Controls/Drawing/zigzagline",
+                      },
+                      {
+                        text: "🔶 多边形",
+                        link: "/ScreenConfiguration/Controls/Drawing/polygon",
+                      },
+                      {
+                        text: "🛢️ 管道",
+                        link: "/ScreenConfiguration/Controls/Drawing/pipeline",
+                      },
+                    ],
+                  },
+                  {
+                    text: "🎭 事件",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📑 事件列表",
+                        link: "/ScreenConfiguration/Controls/Events/eventlist",
+                      },
+                    ],
+                  },
+                  {
+                    text: "⌨️ 输入",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📋 下拉框",
+                        link: "/ScreenConfiguration/Controls/Input/dropdownbox",
+                      },
+                      {
+                        text: "📝 文本输入框",
+                        link: "/ScreenConfiguration/Controls/Input/textinputbox",
+                      },
+                      {
+                        text: "🎚️ 滑动条",
+                        link: "/ScreenConfiguration/Controls/Input/slider",
+                      },
+                      {
+                        text: "📅 日历",
+                        link: "/ScreenConfiguration/Controls/Input/calendar",
+                      },
+                      {
+                        text: "🔢 数字输入框",
+                        link: "/ScreenConfiguration/Controls/Input/digitalinputbox",
+                      },
+                    ],
+                  },
+                  {
+                    text: "📈 图表",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "⏱️ 实时趋势",
+                        link: "/ScreenConfiguration/Controls/Tables/realtimetrend",
+                      },
+                      {
+                        text: "🕰️ 历史趋势",
+                        link: "/ScreenConfiguration/Controls/Tables/historicaltrend",
+                      },
+                      {
+                        text: "🎨 自定义曲线",
+                        link: "/ScreenConfiguration/Controls/Tables/customcurve",
+                      },
+                      {
+                        text: "📊 仪表盘",
+                        link: "/ScreenConfiguration/Controls/Tables/dashboard",
+                      },
+                    ],
+                  },
+                  {
+                    text: "🔷 形状",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📖 形状介绍",
+                        link: "/ScreenConfiguration/Controls/Shapes/shapeintroduction",
+                      },
+                      {
+                        text: "⚪ 椭圆",
+                        link: "/ScreenConfiguration/Controls/Shapes/ellipse",
+                      },
+                      {
+                        text: "⬜ 矩形",
+                        link: "/ScreenConfiguration/Controls/Shapes/rectangle",
+                      },
+                      {
+                        text: "🔲 圆角矩形",
+                        link: "/ScreenConfiguration/Controls/Shapes/roundrectangle",
+                      },
+                      {
+                        text: "➖ 直线",
+                        link: "/ScreenConfiguration/Controls/Shapes/straightline",
+                      },
+                      {
+                        text: "↔️ 水平线",
+                        link: "/ScreenConfiguration/Controls/Shapes/horizontalline",
+                      },
+                      {
+                        text: "↕️ 垂直线",
+                        link: "/ScreenConfiguration/Controls/Shapes/verticalline",
+                      },
+                    ],
+                  },
+                  {
+                    text: "📦 其他",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "📄 历史报表",
+                        link: "/ScreenConfiguration/Controls/Others/historicalreport",
+                      },
+                    ],
                   },
                 ],
               },
