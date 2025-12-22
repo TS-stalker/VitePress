@@ -14,11 +14,26 @@ export default defineConfig({
       provider: "local",
     },
   },
+  // 统一缩短
+  rewrites: {
+    // 中文：docs/ManagementPlatform/任意子目录/page.md
+    "ManagementPlatform/:section/:page.md": "ManagementPlatform/:page",
+    "ScreenConfiguration/Controls/:section/:page.md": "Controls/:page",
+
+    // 英文：docs/en/ManagementPlatform/任意子目录/page.md
+    "en/ManagementPlatform/:section/:page.md": "en/ManagementPlatform/:page",
+    "en/ScreenConfiguration/Controls/:section/:page.md": "en/Controls/:page",
+  },
+  // 简化路由
+  // rewrites: {
+  //   "ManagementPlatform/DataBoard/databoard.md": "ManagementPlatform/databoard",
+  //   "ScreenConfiguration/Controls/Buttons/button.md": "Controls/button",
+  // },
   locales: {
     root: {
       label: "简体中文",
       lang: "zh-CN",
-      title: "DipiOne产品手册",
+      title: "DipuOne产品手册",
       description: "A VitePress Site",
       themeConfig: {
         // 导航栏
