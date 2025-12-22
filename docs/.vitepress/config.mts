@@ -1,3 +1,4 @@
+// .vitepress/config.js
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
@@ -14,21 +15,16 @@ export default defineConfig({
       provider: "local",
     },
   },
-  // 统一缩短
+  // 重写规则 - 统一简化路径
   rewrites: {
-    // 中文：docs/ManagementPlatform/任意子目录/page.md
+    // 中文：将深层路径映射到简化路径
     "ManagementPlatform/:section/:page.md": "ManagementPlatform/:page",
     "ScreenConfiguration/Controls/:section/:page.md": "Controls/:page",
 
-    // 英文：docs/en/ManagementPlatform/任意子目录/page.md
+    // 英文：同样使用简化规则
     "en/ManagementPlatform/:section/:page.md": "en/ManagementPlatform/:page",
     "en/ScreenConfiguration/Controls/:section/:page.md": "en/Controls/:page",
   },
-  // 简化路由
-  // rewrites: {
-  //   "ManagementPlatform/DataBoard/databoard.md": "ManagementPlatform/databoard",
-  //   "ScreenConfiguration/Controls/Buttons/button.md": "Controls/button",
-  // },
   locales: {
     root: {
       label: "简体中文",
@@ -41,7 +37,7 @@ export default defineConfig({
           { text: "首页", link: "/" },
           { text: "文档说明", link: "/DipuOneProductManual" },
         ],
-        // 侧边栏
+        // 侧边栏 - 使用简化路径
         sidebar: [
           // 产品介绍
           {
@@ -69,7 +65,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据看板",
-                    link: "/ManagementPlatform/DataBoard/databoard",
+                    link: "/ManagementPlatform/databoard", // 简化路径
                   },
                 ],
               },
@@ -79,11 +75,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据集",
-                    link: "/ManagementPlatform/DataAnalysis/dataset",
+                    link: "/ManagementPlatform/dataset", // 简化路径
                   },
                   {
                     text: "报表设计",
-                    link: "/ManagementPlatform/DataAnalysis/reportdesign",
+                    link: "/ManagementPlatform/reportdesign", // 简化路径
                   },
                 ],
               },
@@ -93,7 +89,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据服务",
-                    link: "/ManagementPlatform/OpenData/dataservice",
+                    link: "/ManagementPlatform/dataservice", // 简化路径
                   },
                 ],
               },
@@ -103,15 +99,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "空间管理",
-                    link: "/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                    link: "/ManagementPlatform/spacemanagement", // 简化路径
                   },
                   {
                     text: "设备管理",
-                    link: "/ManagementPlatform/ConfigurationDesign/devicemanagement",
+                    link: "/ManagementPlatform/devicemanagement", // 简化路径
                   },
                   {
                     text: "连接管理",
-                    link: "/ManagementPlatform/ConfigurationDesign/connectionmanagement",
+                    link: "/ManagementPlatform/connectionmanagement", // 简化路径
                   },
                 ],
               },
@@ -121,19 +117,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "国际化",
-                    link: "/ManagementPlatform/SystemConfiguration/internationalization",
+                    link: "/ManagementPlatform/internationalization", // 简化路径
                   },
                   {
                     text: "菜单管理",
-                    link: "/ManagementPlatform/SystemConfiguration/menumanagement",
+                    link: "/ManagementPlatform/menumanagement", // 简化路径
                   },
                   {
                     text: "权限管理",
-                    link: "/ManagementPlatform/SystemConfiguration/permissionmanagement",
+                    link: "/ManagementPlatform/permissionmanagement", // 简化路径
                   },
                   {
                     text: "任务管理",
-                    link: "/ManagementPlatform/SystemConfiguration/taskmanagement",
+                    link: "/ManagementPlatform/taskmanagement", // 简化路径
                   },
                 ],
               },
@@ -154,7 +150,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "报警列表",
-                        link: "/ScreenConfiguration/Controls/Alarms/alarmlist",
+                        link: "/Controls/alarmlist", // 简化路径
                       },
                     ],
                   },
@@ -164,23 +160,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "按钮",
-                        link: "/ScreenConfiguration/Controls/Buttons/button",
+                        link: "/Controls/button", // 简化路径
                       },
                       {
                         text: "复选框",
-                        link: "/ScreenConfiguration/Controls/Buttons/checkbox",
+                        link: "/Controls/checkbox", // 简化路径
                       },
                       {
                         text: "单选按钮",
-                        link: "/ScreenConfiguration/Controls/Buttons/radiobutton",
+                        link: "/Controls/radiobutton", // 简化路径
                       },
                       {
                         text: "状态按钮",
-                        link: "/ScreenConfiguration/Controls/Buttons/statusbutton",
+                        link: "/Controls/statusbutton", // 简化路径
                       },
                       {
                         text: "导航菜单",
-                        link: "/ScreenConfiguration/Controls/Buttons/navigationmenu",
+                        link: "/Controls/navigationmenu", // 简化路径
                       },
                     ],
                   },
@@ -190,11 +186,11 @@ export default defineConfig({
                     items: [
                       {
                         text: "变量列表",
-                        link: "/ScreenConfiguration/Controls/Charts/variablelist",
+                        link: "/Controls/variablelist", // 简化路径
                       },
                       {
                         text: "历史检索",
-                        link: "/ScreenConfiguration/Controls/Charts/historicalretrieval",
+                        link: "/Controls/historicalretrieval", // 简化路径
                       },
                     ],
                   },
@@ -204,23 +200,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "文本标签",
-                        link: "/ScreenConfiguration/Controls/Display/textlabel",
+                        link: "/Controls/textlabel", // 简化路径
                       },
                       {
                         text: "值显示",
-                        link: "/ScreenConfiguration/Controls/Display/valuedisplay",
+                        link: "/Controls/valuedisplay", // 简化路径
                       },
                       {
                         text: "画面容器",
-                        link: "/ScreenConfiguration/Controls/Display/pagecontainer",
+                        link: "/Controls/pagecontainer", // 简化路径
                       },
                       {
                         text: "模态框",
-                        link: "/ScreenConfiguration/Controls/Display/modal",
+                        link: "/Controls/modal", // 简化路径
                       },
                       {
                         text: "内嵌网页",
-                        link: "/ScreenConfiguration/Controls/Display/iframe",
+                        link: "/Controls/iframe", // 简化路径
                       },
                     ],
                   },
@@ -230,19 +226,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "绘图介绍",
-                        link: "/ScreenConfiguration/Controls/Drawing/drawingintroduction",
+                        link: "/Controls/drawingintroduction", // 简化路径
                       },
                       {
                         text: "折线",
-                        link: "/ScreenConfiguration/Controls/Drawing/zigzagline",
+                        link: "/Controls/zigzagline", // 简化路径
                       },
                       {
                         text: "多边形",
-                        link: "/ScreenConfiguration/Controls/Drawing/polygon",
+                        link: "/Controls/polygon", // 简化路径
                       },
                       {
                         text: "管道",
-                        link: "/ScreenConfiguration/Controls/Drawing/pipeline",
+                        link: "/Controls/pipeline", // 简化路径
                       },
                     ],
                   },
@@ -252,7 +248,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "事件列表",
-                        link: "/ScreenConfiguration/Controls/Events/eventlist",
+                        link: "/Controls/eventlist", // 简化路径
                       },
                     ],
                   },
@@ -262,23 +258,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "下拉框",
-                        link: "/ScreenConfiguration/Controls/Input/dropdownbox",
+                        link: "/Controls/dropdownbox", // 简化路径
                       },
                       {
                         text: "文本输入框",
-                        link: "/ScreenConfiguration/Controls/Input/textinputbox",
+                        link: "/Controls/textinputbox", // 简化路径
                       },
                       {
                         text: "滑动条",
-                        link: "/ScreenConfiguration/Controls/Input/slider",
+                        link: "/Controls/slider", // 简化路径
                       },
                       {
                         text: "日历",
-                        link: "/ScreenConfiguration/Controls/Input/calendar",
+                        link: "/Controls/calendar", // 简化路径
                       },
                       {
                         text: "数字输入框",
-                        link: "/ScreenConfiguration/Controls/Input/digitalinputbox",
+                        link: "/Controls/digitalinputbox", // 简化路径
                       },
                     ],
                   },
@@ -288,19 +284,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "实时趋势",
-                        link: "/ScreenConfiguration/Controls/Tables/realtimetrend",
+                        link: "/Controls/realtimetrend", // 简化路径
                       },
                       {
                         text: "历史趋势",
-                        link: "/ScreenConfiguration/Controls/Tables/historicaltrend",
+                        link: "/Controls/historicaltrend", // 简化路径
                       },
                       {
                         text: "自定义曲线",
-                        link: "/ScreenConfiguration/Controls/Tables/customcurve",
+                        link: "/Controls/customcurve", // 简化路径
                       },
                       {
                         text: "仪表盘",
-                        link: "/ScreenConfiguration/Controls/Tables/dashboard",
+                        link: "/Controls/dashboard", // 简化路径
                       },
                     ],
                   },
@@ -310,31 +306,31 @@ export default defineConfig({
                     items: [
                       {
                         text: "形状介绍",
-                        link: "/ScreenConfiguration/Controls/Shapes/shapeintroduction",
+                        link: "/Controls/shapeintroduction", // 简化路径
                       },
                       {
                         text: "椭圆",
-                        link: "/ScreenConfiguration/Controls/Shapes/ellipse",
+                        link: "/Controls/ellipse", // 简化路径
                       },
                       {
                         text: "矩形",
-                        link: "/ScreenConfiguration/Controls/Shapes/rectangle",
+                        link: "/Controls/rectangle", // 简化路径
                       },
                       {
                         text: "圆角矩形",
-                        link: "/ScreenConfiguration/Controls/Shapes/roundrectangle",
+                        link: "/Controls/roundrectangle", // 简化路径
                       },
                       {
                         text: "直线",
-                        link: "/ScreenConfiguration/Controls/Shapes/straightline",
+                        link: "/Controls/straightline", // 简化路径
                       },
                       {
                         text: "水平线",
-                        link: "/ScreenConfiguration/Controls/Shapes/horizontalline",
+                        link: "/Controls/horizontalline", // 简化路径
                       },
                       {
                         text: "垂直线",
-                        link: "/ScreenConfiguration/Controls/Shapes/verticalline",
+                        link: "/Controls/verticalline", // 简化路径
                       },
                     ],
                   },
@@ -344,7 +340,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "历史报表",
-                        link: "/ScreenConfiguration/Controls/Others/historicalreport",
+                        link: "/Controls/historicalreport", // 简化路径
                       },
                     ],
                   },
@@ -365,6 +361,7 @@ export default defineConfig({
           { text: "Home", link: "/en/" },
           { text: "Documentation", link: "/en/DipuOneProductManual" },
         ],
+        // 侧边栏 - 同样使用简化路径
         sidebar: [
           // Product Introduction
           {
@@ -384,7 +381,7 @@ export default defineConfig({
             items: [
               {
                 text: "Project List",
-                link: "/en/ManagementPlatform/projectlist",
+                link: "/en/ManagementPlatform/projectlist", // 简化路径
               },
               {
                 text: "Data Dashboard",
@@ -392,7 +389,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Data Dashboard",
-                    link: "/en/ManagementPlatform/DataBoard/databoard",
+                    link: "/en/ManagementPlatform/databoard", // 简化路径
                   },
                 ],
               },
@@ -402,11 +399,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "Dataset",
-                    link: "/en/ManagementPlatform/DataAnalysis/dataset",
+                    link: "/en/ManagementPlatform/dataset", // 简化路径
                   },
                   {
                     text: "Report Design",
-                    link: "/en/ManagementPlatform/DataAnalysis/reportdesign",
+                    link: "/en/ManagementPlatform/reportdesign", // 简化路径
                   },
                 ],
               },
@@ -416,7 +413,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Data Service",
-                    link: "/en/ManagementPlatform/OpenData/dataservice",
+                    link: "/en/ManagementPlatform/dataservice", // 简化路径
                   },
                 ],
               },
@@ -426,15 +423,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "Space Management",
-                    link: "/en/ManagementPlatform/ConfigurationDesign/spacemanagement",
+                    link: "/en/ManagementPlatform/spacemanagement", // 简化路径
                   },
                   {
                     text: "Device Management",
-                    link: "/en/ManagementPlatform/ConfigurationDesign/devicemanagement",
+                    link: "/en/ManagementPlatform/devicemanagement", // 简化路径
                   },
                   {
                     text: "Connection Management",
-                    link: "/en/ManagementPlatform/ConfigurationDesign/connectionmanagement",
+                    link: "/en/ManagementPlatform/connectionmanagement", // 简化路径
                   },
                 ],
               },
@@ -444,19 +441,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "Internationalization",
-                    link: "/en/ManagementPlatform/SystemConfiguration/internationalization",
+                    link: "/en/ManagementPlatform/internationalization", // 简化路径
                   },
                   {
                     text: "Menu Management",
-                    link: "/en/ManagementPlatform/SystemConfiguration/menumanagement",
+                    link: "/en/ManagementPlatform/menumanagement", // 简化路径
                   },
                   {
                     text: "Permission Management",
-                    link: "/en/ManagementPlatform/SystemConfiguration/permissionmanagement",
+                    link: "/en/ManagementPlatform/permissionmanagement", // 简化路径
                   },
                   {
                     text: "Task Management",
-                    link: "/en/ManagementPlatform/SystemConfiguration/taskmanagement",
+                    link: "/en/ManagementPlatform/taskmanagement", // 简化路径
                   },
                 ],
               },
@@ -477,7 +474,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Alarm List",
-                        link: "/en/ScreenConfiguration/Controls/Alarms/alarmlist",
+                        link: "/en/Controls/alarmlist", // 简化路径
                       },
                     ],
                   },
@@ -487,23 +484,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "Button",
-                        link: "/en/ScreenConfiguration/Controls/Buttons/button",
+                        link: "/en/Controls/button", // 简化路径
                       },
                       {
                         text: "Checkbox",
-                        link: "/en/ScreenConfiguration/Controls/Buttons/checkbox",
+                        link: "/en/Controls/checkbox", // 简化路径
                       },
                       {
                         text: "Radio Button",
-                        link: "/en/ScreenConfiguration/Controls/Buttons/radiobutton",
+                        link: "/en/Controls/radiobutton", // 简化路径
                       },
                       {
                         text: "Status Button",
-                        link: "/en/ScreenConfiguration/Controls/Buttons/statusbutton",
+                        link: "/en/Controls/statusbutton", // 简化路径
                       },
                       {
                         text: "Navigation Menu",
-                        link: "/en/ScreenConfiguration/Controls/Buttons/navigationmenu",
+                        link: "/en/Controls/navigationmenu", // 简化路径
                       },
                     ],
                   },
@@ -513,11 +510,11 @@ export default defineConfig({
                     items: [
                       {
                         text: "Variable List",
-                        link: "/en/ScreenConfiguration/Controls/Charts/variablelist",
+                        link: "/en/Controls/variablelist", // 简化路径
                       },
                       {
                         text: "Historical Retrieval",
-                        link: "/en/ScreenConfiguration/Controls/Charts/historicalretrieval",
+                        link: "/en/Controls/historicalretrieval", // 简化路径
                       },
                     ],
                   },
@@ -527,23 +524,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "Text Label",
-                        link: "/en/ScreenConfiguration/Controls/Display/textlabel",
+                        link: "/en/Controls/textlabel", // 简化路径
                       },
                       {
                         text: "Value Display",
-                        link: "/en/ScreenConfiguration/Controls/Display/valuedisplay",
+                        link: "/en/Controls/valuedisplay", // 简化路径
                       },
                       {
                         text: "Page Container",
-                        link: "/en/ScreenConfiguration/Controls/Display/pagecontainer",
+                        link: "/en/Controls/pagecontainer", // 简化路径
                       },
                       {
                         text: "Modal",
-                        link: "/en/ScreenConfiguration/Controls/Display/modal",
+                        link: "/en/Controls/modal", // 简化路径
                       },
                       {
                         text: "Iframe",
-                        link: "/en/ScreenConfiguration/Controls/Display/iframe",
+                        link: "/en/Controls/iframe", // 简化路径
                       },
                     ],
                   },
@@ -553,19 +550,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "Drawing Introduction",
-                        link: "/en/ScreenConfiguration/Controls/Drawing/drawingintroduction",
+                        link: "/en/Controls/drawingintroduction", // 简化路径
                       },
                       {
                         text: "Zigzag Line",
-                        link: "/en/ScreenConfiguration/Controls/Drawing/zigzagline",
+                        link: "/en/Controls/zigzagline", // 简化路径
                       },
                       {
                         text: "Polygon",
-                        link: "/en/ScreenConfiguration/Controls/Drawing/polygon",
+                        link: "/en/Controls/polygon", // 简化路径
                       },
                       {
                         text: "Pipeline",
-                        link: "/en/ScreenConfiguration/Controls/Drawing/pipeline",
+                        link: "/en/Controls/pipeline", // 简化路径
                       },
                     ],
                   },
@@ -575,7 +572,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Event List",
-                        link: "/en/ScreenConfiguration/Controls/Events/eventlist",
+                        link: "/en/Controls/eventlist", // 简化路径
                       },
                     ],
                   },
@@ -585,23 +582,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "Dropdown Box",
-                        link: "/en/ScreenConfiguration/Controls/Input/dropdownbox",
+                        link: "/en/Controls/dropdownbox", // 简化路径
                       },
                       {
                         text: "Text Input Box",
-                        link: "/en/ScreenConfiguration/Controls/Input/textinputbox",
+                        link: "/en/Controls/textinputbox", // 简化路径
                       },
                       {
                         text: "Slider",
-                        link: "/en/ScreenConfiguration/Controls/Input/slider",
+                        link: "/en/Controls/slider", // 简化路径
                       },
                       {
                         text: "Calendar",
-                        link: "/en/ScreenConfiguration/Controls/Input/calendar",
+                        link: "/en/Controls/calendar", // 简化路径
                       },
                       {
                         text: "Digital Input Box",
-                        link: "/en/ScreenConfiguration/Controls/Input/digitalinputbox",
+                        link: "/en/Controls/digitalinputbox", // 简化路径
                       },
                     ],
                   },
@@ -611,19 +608,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "Real-time Trend",
-                        link: "/en/ScreenConfiguration/Controls/Tables/realtimetrend",
+                        link: "/en/Controls/realtimetrend", // 简化路径
                       },
                       {
                         text: "Historical Trend",
-                        link: "/en/ScreenConfiguration/Controls/Tables/historicaltrend",
+                        link: "/en/Controls/historicaltrend", // 简化路径
                       },
                       {
                         text: "Custom Curve",
-                        link: "/en/ScreenConfiguration/Controls/Tables/customcurve",
+                        link: "/en/Controls/customcurve", // 简化路径
                       },
                       {
                         text: "Dashboard",
-                        link: "/en/ScreenConfiguration/Controls/Tables/dashboard",
+                        link: "/en/Controls/dashboard", // 简化路径
                       },
                     ],
                   },
@@ -633,31 +630,31 @@ export default defineConfig({
                     items: [
                       {
                         text: "Shape Introduction",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/shapeintroduction",
+                        link: "/en/Controls/shapeintroduction", // 简化路径
                       },
                       {
                         text: "Ellipse",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/ellipse",
+                        link: "/en/Controls/ellipse", // 简化路径
                       },
                       {
                         text: "Rectangle",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/rectangle",
+                        link: "/en/Controls/rectangle", // 简化路径
                       },
                       {
                         text: "Round Rectangle",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/roundrectangle",
+                        link: "/en/Controls/roundrectangle", // 简化路径
                       },
                       {
                         text: "Straight Line",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/straightline",
+                        link: "/en/Controls/straightline", // 简化路径
                       },
                       {
                         text: "Horizontal Line",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/horizontalline",
+                        link: "/en/Controls/horizontalline", // 简化路径
                       },
                       {
                         text: "Vertical Line",
-                        link: "/en/ScreenConfiguration/Controls/Shapes/verticalline",
+                        link: "/en/Controls/verticalline", // 简化路径
                       },
                     ],
                   },
@@ -667,7 +664,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Historical Report",
-                        link: "/en/ScreenConfiguration/Controls/Others/historicalreport",
+                        link: "/en/Controls/historicalreport", // 简化路径
                       },
                     ],
                   },
