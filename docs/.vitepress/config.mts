@@ -1,14 +1,14 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: '/',
+  base: "/",
   vite: {
     server: {
       host: "0.0.0.0",
       port: 5173,
     },
   },
-  // cleanUrls: true,
+  cleanUrls: true,
   themeConfig: {
     search: {
       provider: "local",

@@ -1,25 +1,25 @@
-﻿### 关于本用户手册
+### About This User Manual
 
-本用户手册专门用于**DipuOne 1.0.0**版本。每个版本将有单独的用户手册。
+This user manual is specifically for **DipuOne 1.0.0** version. Each version will have a separate user manual.
 
-本手册提供了DipuOne的安装、升级、功能使用的说明。左侧的侧边栏是一个目录，您可以轻松快速地浏览 DipuOne的特性、功能等。
+This manual provides instructions for DipuOne installation, upgrade, and feature usage. The left sidebar is a directory, allowing you to easily and quickly browse DipuOne's features, functions, etc.
 
-在附录中，您将找到 DipuOne中所有系统函数的详尽列表，可以查看Demo工程的介绍。
+In the appendix, you will find a detailed list of all system functions in DipuOne, and you can view the introduction to Demo projects.
 
-### 什么是 DipuOne？
+### What is DipuOne?
 
-基于 `IOT架构和标准Web技术的新一代组态系统。是一`个通用的用于监控和控制工业过程的应用平台，包含多种功能模块，通过这些功能模块可以帮助工业企业实现实时监控、智能控制和数据分析，从而提高生产效率和安全性。
+A new-generation configuration system based on `IoT architecture and standard Web technologies. It is` a universal application platform for monitoring and controlling industrial processes, containing multiple functional modules. Through these functional modules, it can help industrial enterprises achieve real-time monitoring, intelligent control, and data analysis, thereby improving production efficiency and safety.
 
-![图片描述](../images/usermanual.png)
+![Image Description](../images/usermanual.png)
 
-### 安装和升级
+### Installation and Upgrade
 
-通过安装包可以轻松安装。在安装之前，请确保您的计算机系统符合DipuOne的最低系统要求。
+Easy installation through installation packages. Before installation, please ensure that your computer system meets DipuOne's minimum system requirements.
 
-### 此版新功能
+### New Features in This Version
 
-您是否在寻找已经改变的东西？或者，也许您想看看我们新添加到DipuOne中功能？请查看此版本中的“版本更新说明”页面，了解此版本的详细更新内容。
+Are you looking for what has changed? Or perhaps you want to see the features we've newly added to DipuOne? Please check the "Version Update Notes" page in this version to learn about the detailed update content of this version.
 
-### **安全建议**
+### **Security Recommendations**
 
-鉴于这些授权流程的使用场景和安全性考量的差异，我们强烈建议您使用正版，这样可以提高客户端的安全性，并确保您的应用符合最佳实践要求。
+Given the differences in usage scenarios and security considerations of these authorization processes, we strongly recommend that you use the genuine version, which can improve client security and ensure that your application meets best practice requirements.

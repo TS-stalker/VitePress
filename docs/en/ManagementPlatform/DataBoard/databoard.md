@@ -1,45 +1,45 @@
-﻿## 一、概述
+## 1. Overview
 
-数据看板是系统的综合信息仪表盘，集中呈现用户最关心的核心数据与系统运行概况。它通过直观的图表和卡片，动态展示设备状态、告警态势及系统健康度，并提供可配置的小组件，为用户提供高效的全局监控与交互入口。
+The Data Dashboard is the system's comprehensive information dashboard, centrally presenting the core data and system operation overview that users care about most. Through intuitive charts and cards, it dynamically displays device status, alarm situation, and system health, and provides configurable widgets, offering users an efficient global monitoring and interaction entry point.
 
-## 二、核心信息展示
+## 2. Core Information Display
 
-### 1. 设备综合概况
+### 1. Device Comprehensive Overview
 
-以关键指标卡形式，一目了然地展示设备的整体运行状态：
+Display the overall operating status of devices at a glance in the form of key indicator cards:
 
-| 指标项       | 描述                                   |
-| ------------ | -------------------------------------- |
-| 设备总数     | 系统中已注册管理的物理设备总数量。     |
-| 在线设备     | 当前处于正常通信连接状态的设备数量。   |
-| 离线设备     | 当前通信中断或无法连接的设备数量。     |
-| 变量个数     | 系统中所有已定义的数据点（变量）总数。 |
-| 活跃告警数量 | 当前处于活动状态的未确认告警总数。     |
-| 今日新增告警 | 当前系统中今日新增加的告警总数         |
+| Indicator Item | Description                                   |
+| -------------- | --------------------------------------------- |
+| Total Devices  | Total number of physical devices registered and managed in the system. |
+| Online Devices | Number of devices currently in normal communication connection status. |
+| Offline Devices | Number of devices with interrupted communication or unable to connect. |
+| Variable Count | Total number of all defined data points (variables) in the system. |
+| Active Alarm Count | Total number of unacknowledged alarms currently in active status. |
+| Today's New Alarms | Total number of new alarms added today in the current system. |
 
-### 2. 告警态势分析
+### 2. Alarm Situation Analysis
 
-通过可视化图表，深入分析告警的分布与趋势：
+Through visual charts, deeply analyze the distribution and trends of alarms:
 
-| 组件           | 功能描述                                                                           |
-| -------------- | ---------------------------------------------------------------------------------- |
-| 告警趋势图     | 显示近期（如24小时、7天）告警数量的时间序列变化，帮助识别告警高发时段。            |
-| 告警等级分布图 | 以饼图或环形图展示不同等级告警（如紧急、重要、警告）的数量占比，快速定位风险级别。 |
-| 最新告警列表   | 滚动显示最近产生的告警条目，包括时间、设备、描述和等级，便于即时响应。             |
+| Component          | Function Description                                                                           |
+| ------------------ | ---------------------------------------------------------------------------------------------- |
+| Alarm Trend Chart  | Display time series changes in alarm quantities in recent periods (such as 24 hours, 7 days), helping to identify high-incidence alarm periods. |
+| Alarm Level Distribution Chart | Display the quantity proportion of different level alarms (such as urgent, important, warning) in pie or ring charts, quickly locating risk levels. |
+| Latest Alarm List  | Scroll display of recently generated alarm entries, including time, device, description, and level, facilitating immediate response. |
 
-### 3. 系统运行状态
+### 3. System Running Status
 
-监控系统自身的健康与性能指标：
+Monitor the health and performance indicators of the system itself:
 
-- **服务状态**：核心后台服务的运行状态。
-- **数据状态**：相关数据库服务的运行状态
+- **Service Status**: Running status of core background services.
+- **Data Status**: Running status of related database services.
 
-## 三、小组件配置功能
+## 3. Widget Configuration Function
 
-为提升用户体验，看板支持一定程度的个性化：
+To improve user experience, the dashboard supports a certain degree of personalization:
 
-- **自定义组件**：定义部分小组件的功能和用法
+- **Custom Components**: Define the functions and usage of some widgets.
 
-通过数据看板，用户可以快速掌握全局运行态势，识别潜在问题，并基于丰富的可视化信息做出高效决策。
+Through the Data Dashboard, users can quickly grasp the global operation situation, identify potential problems, and make efficient decisions based on rich visual information.
 
-![图片描述](../../../images/ManagementPlatform/数据看板1.png)
+![Image Description](../../../../images/ManagementPlatform/数据看板1.png)
