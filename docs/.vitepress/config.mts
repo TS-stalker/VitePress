@@ -354,7 +354,7 @@ export default defineConfig({
     en: {
       label: "English",
       lang: "en-US",
-      title: "DipiOne Product Manual",
+      title: "DipuOne Product Manual",
       description: "A VitePress Site",
       themeConfig: {
         nav: [
