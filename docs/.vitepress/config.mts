@@ -19,11 +19,11 @@ export default defineConfig({
   rewrites: {
     // 中文：将深层路径映射到简化路径
     "ManagementPlatform/:section/:page.md": "ManagementPlatform/:page",
-    "ScreenConfiguration/Controls/:section/:page.md": "Controls/:page",
+    "Controls/:section/:page.md": "Controls/:page",
 
     // 英文：同样使用简化规则
     "en/ManagementPlatform/:section/:page.md": "en/ManagementPlatform/:page",
-    "en/ScreenConfiguration/Controls/:section/:page.md": "en/Controls/:page",
+    "en/Controls/:section/:page.md": "en/Controls/:page",
   },
   locales: {
     root: {
