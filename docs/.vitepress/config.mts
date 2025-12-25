@@ -17,6 +17,20 @@ export default defineConfig({
   },
   // 重写规则 - 统一简化路径
   rewrites: {
+    // "ManagementPlatform/databoard.md": "ManagementPlatform/dashboard", // 数据看板
+    // "ManagementPlatform/dataset.md": "ManagementPlatform/dataset", // 数据集
+    // "ManagementPlatform/reportdesign.md": "ManagementPlatform/report", // 报表设计
+    // "ManagementPlatform/dataservice.md": "ManagementPlatform/data-server", // 数据服务
+    // "ManagementPlatform/spacemanagement.md": "ManagementPlatform/space", // 空间管理
+    // "ManagementPlatform/devicemanagement.md": "ManagementPlatform/structure", // 设备管理
+    // "ManagementPlatform/connectionmanagement.md":
+    //   "ManagementPlatform/datasource", // 连接管理
+    // "ManagementPlatform/internationalization.md": "ManagementPlatform/locale", // 国际化
+    // "ManagementPlatform/menumanagement.md": "ManagementPlatform/menu", // 菜单管理
+    // "ManagementPlatform/permissionmanagement.md":
+    //   "ManagementPlatform/permission", // 权限管理
+    // "ManagementPlatform/taskmanagement.md": "ManagementPlatform/task", // 任务管理
+
     // 中文：将深层路径映射到简化路径
     "ManagementPlatform/:section/:page.md": "ManagementPlatform/:page",
     "Controls/:section/:page.md": "Controls/:page",
@@ -65,7 +79,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据看板",
-                    link: "/ManagementPlatform/databoard", // 简化路径
+                    link: "/ManagementPlatform/dashboard",
                   },
                 ],
               },
@@ -75,11 +89,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据集",
-                    link: "/ManagementPlatform/dataset", // 简化路径
+                    link: "/ManagementPlatform/dataset",
                   },
                   {
                     text: "报表设计",
-                    link: "/ManagementPlatform/reportdesign", // 简化路径
+                    link: "/ManagementPlatform/report",
                   },
                 ],
               },
@@ -89,7 +103,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据服务",
-                    link: "/ManagementPlatform/dataservice", // 简化路径
+                    link: "/ManagementPlatform/data-server", // 简化路径
                   },
                 ],
               },
@@ -99,15 +113,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "空间管理",
-                    link: "/ManagementPlatform/spacemanagement", // 简化路径
+                    link: "/ManagementPlatform/space",
                   },
                   {
                     text: "设备管理",
-                    link: "/ManagementPlatform/devicemanagement", // 简化路径
+                    link: "/ManagementPlatform/structure", // 简化路径
                   },
                   {
                     text: "连接管理",
-                    link: "/ManagementPlatform/connectionmanagement", // 简化路径
+                    link: "/ManagementPlatform/datasource", // 简化路径
                   },
                 ],
               },
@@ -117,19 +131,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "国际化",
-                    link: "/ManagementPlatform/internationalization", // 简化路径
+                    link: "/ManagementPlatform/locale", // 简化路径
                   },
                   {
                     text: "菜单管理",
-                    link: "/ManagementPlatform/menumanagement", // 简化路径
+                    link: "/ManagementPlatform/menu", // 简化路径
                   },
                   {
                     text: "权限管理",
-                    link: "/ManagementPlatform/permissionmanagement", // 简化路径
+                    link: "/ManagementPlatform/permission", // 简化路径
                   },
                   {
                     text: "任务管理",
-                    link: "/ManagementPlatform/taskmanagement", // 简化路径
+                    link: "/ManagementPlatform/task", // 简化路径
                   },
                 ],
               },
@@ -389,7 +403,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Data Dashboard",
-                    link: "/en/ManagementPlatform/databoard", // 简化路径
+                    link: "/en/ManagementPlatform/dashboard", // 简化路径
                   },
                 ],
               },
@@ -403,7 +417,7 @@ export default defineConfig({
                   },
                   {
                     text: "Report Design",
-                    link: "/en/ManagementPlatform/reportdesign", // 简化路径
+                    link: "/en/ManagementPlatform/report", // 简化路径
                   },
                 ],
               },
@@ -413,7 +427,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Data Service",
-                    link: "/en/ManagementPlatform/dataservice", // 简化路径
+                    link: "/en/ManagementPlatform/data-server", // 简化路径
                   },
                 ],
               },
@@ -423,15 +437,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "Space Management",
-                    link: "/en/ManagementPlatform/spacemanagement", // 简化路径
+                    link: "/en/ManagementPlatform/space", // 简化路径
                   },
                   {
                     text: "Device Management",
-                    link: "/en/ManagementPlatform/devicemanagement", // 简化路径
+                    link: "/en/ManagementPlatform/structure", // 简化路径
                   },
                   {
                     text: "Connection Management",
-                    link: "/en/ManagementPlatform/connectionmanagement", // 简化路径
+                    link: "/en/ManagementPlatform/datasource", // 简化路径
                   },
                 ],
               },
@@ -441,19 +455,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "Internationalization",
-                    link: "/en/ManagementPlatform/internationalization", // 简化路径
+                    link: "/en/ManagementPlatform/locale", // 简化路径
                   },
                   {
                     text: "Menu Management",
-                    link: "/en/ManagementPlatform/menumanagement", // 简化路径
+                    link: "/en/ManagementPlatform/menu", // 简化路径
                   },
                   {
                     text: "Permission Management",
-                    link: "/en/ManagementPlatform/permissionmanagement", // 简化路径
+                    link: "/en/ManagementPlatform/permission", // 简化路径
                   },
                   {
                     text: "Task Management",
-                    link: "/en/ManagementPlatform/taskmanagement", // 简化路径
+                    link: "/en/ManagementPlatform/task", // 简化路径
                   },
                 ],
               },
