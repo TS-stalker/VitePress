@@ -360,6 +360,40 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "编辑器",
+                collapsed: true,
+                items: [
+                  {
+                    text: "画面编辑器",
+                    link: "/Controls/screeneditor", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "图库",
+                collapsed: true,
+                items: [
+                  {
+                    text: "图库管理",
+                    link: "/Controls/imagelibrary", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "图符",
+                collapsed: true,
+                items: [
+                  {
+                    text: "图符介绍",
+                    link: "/Controls/symbolpanel", // 简化路径
+                  },
+                  {
+                    text: "图符库",
+                    link: "/Controls/symbollibrary",
+                  },
+                ],
+              },
             ],
           },
         ],
