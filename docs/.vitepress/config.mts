@@ -746,6 +746,68 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "Editor",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Screen Editor",
+                    link: "/en/Controls/screeneditor", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "Image Library",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Image Library Management",
+                    link: "/en/Controls/imagelibrary", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "Symbols",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Symbol Introduction",
+                    link: "/en/Controls/symbolpanel", // 简化路径
+                  },
+                  {
+                    text: "Symbol Library",
+                    link: "/en/Controls/symbollibrary",
+                  },
+                ],
+              },
+              {
+                text: "Actions",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Action Introduction",
+                    link: "/en/Controls/action", // 简化路径
+                  },
+                  {
+                    text: "Navigation",
+                    link: "/en/Controls/navigation", // 简化路径
+                  },
+                  {
+                    text: "Variable Write",
+                    link: "/en/Controls/variablewrite", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "Animation",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Animation Introduction",
+                    link: "/en/Controls/animation", // 简化路径
+                  },
+                ],
+              },
             ],
           },
         ],
