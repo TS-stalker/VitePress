@@ -1,136 +1,136 @@
-## 一、概述
+## 1. Overview
 
-所有组态画面均在 DipuOne 内置的**所见即所得编辑器**中完成设计和绘制。该编辑器为您提供实时预览、直观操作、即时反馈等核心优势，极大地简化了创建和编辑过程，提升了开发效率与界面一致性。
+All configuration screens are designed and drawn in DipuOne's built-in **WYSIWYG editor**. This editor provides core advantages such as real-time preview, intuitive operation, and instant feedback, greatly simplifying the creation and editing process, and improving development efficiency and interface consistency.
 
-- **首次启动**：打开项目时，会显示一个欢迎窗口，提供**新建画面、新建弹窗**等快速启动选项。
-- **后续启动**：可以选择之前已经建立的画面项目，让您能够**无缝接续工作**。
+- **First Launch**: When opening a project, a welcome window will be displayed, providing quick launch options such as **new screen, new popup**.
+- **Subsequent Launches**: You can select previously created screen projects to **seamlessly continue work**.
 
-![图片描述](../images/控件照片/编辑器介绍/1.png)
+![Image Description](../../images/控件照片/编辑器介绍/1.png)
 
-图 1-1
+Figure 1-1
 
-## 二、编辑器界面布局
+## 2. Editor Interface Layout
 
-### 1. 工具栏
+### 1. Toolbar
 
-编辑器顶部设有工具栏，提供一系列常用功能的快捷按钮。将鼠标悬停在任何按钮上，会出现**提示信息框**，清晰标明该按钮的功能。
+The editor top has a toolbar that provides shortcuts for a series of commonly used functions. Hovering the mouse over any button will display a **tooltip box** clearly indicating the button's function.
 
-| 功能分类 | 功能名称       | 作用描述                     | 用法说明                                     |
-| -------- | -------------- | ---------------------------- | -------------------------------------------- |
-| 文件操作 | 保存           | 保存当前编辑的内容           | 点击后立即保存当前画布上的所有修改           |
-|          | 撤销           | 撤销上一步操作               | 点击后回退到上一步操作前的状态               |
-|          | 重做           | 重做被撤销的操作             | 点击后恢复被撤销的操作                       |
-| 编辑操作 | 删除           | 删除选中的元素               | 选中一个或多个元素后点击删除                 |
-|          | 复制           | 复制选中的元素               | 选中元素后点击，然后在画布其他位置粘贴       |
-|          | 粘贴           | 粘贴已复制的元素             | 在画布上粘贴已复制的元素                     |
-|          | 剪切           | 剪切选中的元素               | 选中元素后点击，元素被移除并可粘贴到其他位置 |
-| 对齐操作 | 左对齐         | 将选中元素靠左对齐           | 选中多个元素后，以最左侧元素为基准对齐       |
-|          | 右对齐         | 将选中元素靠右对齐           | 选中多个元素后，以最右侧元素为基准对齐       |
-|          | 顶部对齐       | 将选中元素顶部对齐           | 选中多个元素后，以最顶部元素为基准对齐       |
-|          | 底部对齐       | 将选中元素底部对齐           | 选中多个元素后，以最底部元素为基准对齐       |
-|          | 水平居中       | 将选中元素水平居中对齐       | 选中多个元素后，在水平方向居中排列           |
-|          | 垂直居中       | 将选中元素垂直居中对齐       | 选中多个元素后，在垂直方向居中排列           |
-| 分布操作 | 垂直等间距     | 使选中元素垂直方向等间距分布 | 选中二个及以上元素后，在垂直方向均匀分布     |
-|          | 水平等间距     | 使选中元素水平方向等间距分布 | 选中二个及以上元素后，在水平方向均匀分布     |
-| 层级操作 | 上移           | 将选中元素向上移动一层       | 调整元素在Z轴方向的显示顺序                  |
-|          | 下移           | 将选中元素向下移动一层       | 调整元素在Z轴方向的显示顺序                  |
-|          | 置顶           | 将选中元素置于最顶层         | 将元素移动到所有其他元素之上                 |
-|          | 置底           | 将选中元素置于最底层         | 将元素移动到所有其他元素之下                 |
-| 尺寸操作 | 等宽           | 使选中元素宽度一致           | 以最宽或最后一个选中的元素宽度为基准         |
-|          | 等高           | 使选中元素高度一致           | 以最高或最后一个选中的元素高度为基准         |
-|          | 等大小         | 使选中元素宽度和高度都一致   | 使所有选中元素尺寸完全相同                   |
-| 内容操作 | 内容居中       | 使元素内部内容居中显示       | 针对有内容的元素，如图标、文本标签等         |
-|          | 元素全屏最大化 | 将选中元素最大化至全屏显示   | 用于详细查看或编辑单个复杂元素               |
-| 组合操作 | 组合           | 将多个元素组合成一个组       | 选中多个元素后组合，便于统一移动和操作       |
-|          | 拆分           | 将已组合的元素拆分开         | 将组合还原为独立元素                         |
-| 变换操作 | 顺时针旋转90°  | 将选中元素顺时针旋转90度     | 改变元素的方向和角度                         |
-|          | 逆时针旋转90°  | 将选中元素逆时针旋转90度     | 改变元素的方向和角度                         |
-|          | 水平翻转       | 将选中元素水平镜像翻转       | 创建对称或镜像效果                           |
-|          | 垂直翻转       | 将选中元素垂直镜像翻转       | 创建对称或镜像效果                           |
-| 视图操作 | 网格           | 显示/隐藏画布网格            | 辅助精确对齐和布局                           |
-|          | 缩小           | 缩小画布视图                 | 查看整体布局                                 |
-|          | 放大           | 放大画布视图                 | 查看细节或进行精细调整                       |
-|          | 原始大小       | 恢复画布视图到100%大小       | 返回默认视图比例                             |
+| Function Category       | Function Name                   | Description                                                | Usage Instructions                                                            |
+| ----------------------- | ------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| File Operations         | Save                            | Save current editing content                               | Click to immediately save all modifications on the current canvas             |
+|                         | Undo                            | Undo the previous operation                                | Click to revert to the state before the previous operation                    |
+|                         | Redo                            | Redo the undone operation                                  | Click to restore the undone operation                                         |
+| Edit Operations         | Delete                          | Delete selected elements                                   | Select one or more elements then click delete                                 |
+|                         | Copy                            | Copy selected elements                                     | Select elements then click, then paste at other positions on the canvas       |
+|                         | Paste                           | Paste copied elements                                      | Paste copied elements on the canvas                                           |
+|                         | Cut                             | Cut selected elements                                      | Select elements then click, elements are removed and can be pasted elsewhere  |
+| Alignment Operations    | Left Align                      | Align selected elements to the left                        | After selecting multiple elements, align based on the leftmost element        |
+|                         | Right Align                     | Align selected elements to the right                       | After selecting multiple elements, align based on the rightmost element       |
+|                         | Top Align                       | Align selected elements to the top                         | After selecting multiple elements, align based on the topmost element         |
+|                         | Bottom Align                    | Align selected elements to the bottom                      | After selecting multiple elements, align based on the bottommost element      |
+|                         | Horizontal Center               | Center selected elements horizontally                      | After selecting multiple elements, center them horizontally                   |
+|                         | Vertical Center                 | Center selected elements vertically                        | After selecting multiple elements, center them vertically                     |
+| Distribution Operations | Vertical Equal Spacing          | Distribute selected elements with equal vertical spacing   | After selecting 2 or more elements, distribute evenly in vertical direction   |
+|                         | Horizontal Equal Spacing        | Distribute selected elements with equal horizontal spacing | After selecting 2 or more elements, distribute evenly in horizontal direction |
+| Layer Operations        | Move Up                         | Move selected element up one layer                         | Adjust the display order of elements in Z-axis direction                      |
+|                         | Move Down                       | Move selected element down one layer                       | Adjust the display order of elements in Z-axis direction                      |
+|                         | Bring to Front                  | Place selected element at the top layer                    | Move element above all other elements                                         |
+|                         | Send to Back                    | Place selected element at the bottom layer                 | Move element below all other elements                                         |
+| Size Operations         | Equal Width                     | Make selected elements have equal width                    | Based on the widest or last selected element's width                          |
+|                         | Equal Height                    | Make selected elements have equal height                   | Based on the tallest or last selected element's height                        |
+|                         | Equal Size                      | Make selected elements have equal width and height         | Make all selected elements exactly the same size                              |
+| Content Operations      | Center Content                  | Center element internal content display                    | For elements with content, such as icons, text labels, etc.                   |
+|                         | Maximize Element to Full Screen | Maximize selected element to full screen display           | Used for detailed viewing or editing of individual complex elements           |
+| Group Operations        | Group                           | Combine multiple elements into a group                     | Select multiple elements then group for unified movement and operation        |
+|                         | Ungroup                         | Separate grouped elements                                  | Restore group to independent elements                                         |
+| Transform Operations    | Rotate 90° Clockwise            | Rotate selected element 90° clockwise                      | Change element direction and angle                                            |
+|                         | Rotate 90° Counterclockwise     | Rotate selected element 90° counterclockwise               | Change element direction and angle                                            |
+|                         | Flip Horizontal                 | Flip selected element horizontally                         | Create symmetry or mirror effects                                             |
+|                         | Flip Vertical                   | Flip selected element vertically                           | Create symmetry or mirror effects                                             |
+| View Operations         | Grid                            | Show/Hide canvas grid                                      | Assist with precise alignment and layout                                      |
+|                         | Zoom Out                        | Zoom out canvas view                                       | View overall layout                                                           |
+|                         | Zoom In                         | Zoom in canvas view                                        | View details or make fine adjustments                                         |
+|                         | Actual Size                     | Restore canvas view to 100% size                           | Return to default view scale                                                  |
 
-## 使用建议
+## Usage Suggestions
 
-1. **批量操作**：多数对齐和分布功能需要**先选中2个或更多元素**才能生效
-2. **操作顺序**：建议先使用对齐功能，再使用分布功能，最后调整层级
-3. **组合使用**：复杂布局时，可先将相关元素组合，对组合进行操作，最后再拆分
-4. **视图缩放**：精细调整时放大视图，整体布局时缩小视图，结合网格线更精准
+1. **Batch Operations**: Most alignment and distribution functions require **selecting 2 or more elements first** to take effect
+2. **Operation Order**: It is recommended to use alignment functions first, then distribution functions, and finally adjust layers
+3. **Combined Usage**: For complex layouts, group elements first, perform operations on the group, then ungroup
+4. **View Zooming**: Zoom in for fine adjustments, zoom out for overall layout, combined with grid lines for more precision
 
-这些工具能够显著提升界面设计的效率和质量，建议根据实际需求灵活组合使用。
+These tools can significantly improve the efficiency and quality of interface design. It is recommended to flexibly combine them according to actual needs.
 
-![图片描述](../images/控件照片/编辑器介绍/2.png)
+![Image Description](../../images/控件照片/编辑器介绍/2.png)
 
-图 1-2
+Figure 1-2
 
-### 2. 窗口面板
+### 2. Window Panels
 
-编辑器提供多个可打开/关闭的功能窗口，您可以根据工作需要灵活配置。各窗口通过侧边栏图标或菜单进行开关控制。
+The editor provides multiple functional windows that can be opened/closed, allowing you to flexibly configure according to work needs. Each window is controlled through sidebar icons or menus.
 
-![图片描述](../images/控件照片/编辑器介绍/3.png)
+![Image Description](../../images/控件照片/编辑器介绍/3.png)
 
-图 1-3
+Figure 1-3
 
-| 窗口 | 功能描述                                                                                                       |
-| ---- | -------------------------------------------------------------------------------------------------------------- |
-| 控件 | 展示所有可用的控件库，便于您查找、查看并将其拖拽到画布上使用。                                                 |
-| 图库 | 用于集中管理和使用项目中的所有图片素材。                                                                       |
-| 图符 | 用于集中管理和使用项目中的所有可复用图符。                                                                     |
-| 大纲 | 以树状列表形式展示当前打开画面上的所有控件，并显示其锁定、隐藏等状态。支持在此面板中快速选中、锁定、隐藏控件。 |
-| 项目 | 展示项目结构信息，包括所有画面和画面模板的列表。                                                               |
-| 属性 | 显示属性配置面板，用于对当前选中的控件的各项属性进行详细设置。                                                 |
-| 动画 | 用于为选中的控件添加动画效果，如闪烁、填充等。                                                                 |
-| 动作 | 用于为选中的控件添加交互动作，可配置的触发事件包括鼠标事件（单击、移入、移出、右键）和特殊事件（值变化等）。   |
-| 画面 | 显示当前打开画面的专属属性面板，用于快速修改画面的宽高、背景、画面模板、分辨率、自定义属性、网格等全局设置。   |
+| Window        | Function Description                                                                                                                                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Controls      | Display all available control libraries, making it easy for you to find, view, and drag them onto the canvas for use.                                                                                             |
+| Image Library | Used to centrally manage and use all image materials in the project.                                                                                                                                              |
+| Symbols       | Used to centrally manage and use all reusable symbols in the project.                                                                                                                                             |
+| Outline       | Display all controls on the currently opened screen in a tree list format, showing their locked, hidden, etc. states. Supports quick selection, locking, and hiding of controls in this panel.                    |
+| Project       | Display project structure information, including lists of all screens and screen templates.                                                                                                                       |
+| Properties    | Display the property configuration panel for detailed settings of various properties of the currently selected control.                                                                                           |
+| Animation     | Used to add animation effects to selected controls, such as blinking, filling, etc.                                                                                                                               |
+| Actions       | Used to add interactive actions to selected controls. Configurable trigger events include mouse events (click, mouse enter, mouse leave, right click) and special events (value changes, etc.).                   |
+| Screen        | Display the exclusive property panel of the currently opened screen for quick modification of global settings such as screen width/height, background, screen template, resolution, custom properties, grid, etc. |
 
-### 3. 画面管理菜单
+### 3. Screen Management Menu
 
-通过此菜单可以对项目中的画面进行组织和管理。
+Through this menu, you can organize and manage screens in the project.
 
-| 功能     | 描述                                     |
-| -------- | ---------------------------------------- |
-| 新建画面 | 创建一个新的常规画面。                   |
-| 新建弹窗 | 创建一个新的弹窗画面。                   |
-| 复制     | 复制当前选中的画面或弹窗。               |
-| 粘贴     | 粘贴刚刚复制的画面或弹窗，生成一个副本。 |
-| 重命名   | 为选中的画面或弹窗重命名。               |
-| 删除     | 删除选中的画面或弹窗。                   |
+| Function   | Description                                                    |
+| ---------- | -------------------------------------------------------------- |
+| New Screen | Create a new regular screen.                                   |
+| New Popup  | Create a new popup screen.                                     |
+| Copy       | Copy the currently selected screen or popup.                   |
+| Paste      | Paste the just copied screen or popup to generate a duplicate. |
+| Rename     | Rename the selected screen or popup.                           |
+| Delete     | Delete the selected screen or popup.                           |
 
-![图片描述](../images/控件照片/编辑器介绍/4.png)
+![Image Description](../../images/控件照片/编辑器介绍/4.png)
 
-图 1-4
+Figure 1-4
 
-### 4. 画布
+### 4. Canvas
 
-界面的中央核心区域，**所见即所得**的绘制工作区。您在此处通过拖拽控件、调整布局来设计和构建界面。
+The central core area of the interface, the **WYSIWYG** drawing workspace. Here you design and build interfaces by dragging controls and adjusting layouts.
 
-![图片描述](../images/控件照片/编辑器介绍/5.png)
+![Image Description](../../images/控件照片/编辑器介绍/5.png)
 
-图 1-5
+Figure 1-5
 
-### 5. 项目设置
+### 5. Project Settings
 
-用于配置整个项目的全局属性，例如：
+Used to configure global properties of the entire project, such as:
 
-- **启动画面**：设置项目运行时首先显示的画面。
-- **报警样式**：设置报警等级、报警名称、字体颜色、背景色等。
-- **语音设置**：配置报警时的语音提示功能，包含语音的开关、音量、音高、报警文本。
-- **语言启用**：为适应不同国家用户，在此配置项目中**启用哪些语言**。配置后，用户可在运行时切换至已启用的语言界面。**默认开启中文和英文**。
+- **Startup Screen**: Set the screen that displays first when the project runs.
+- **Alarm Styles**: Set alarm levels, alarm names, font colors, background colors, etc.
+- **Voice Settings**: Configure voice prompt functions during alarms, including voice on/off, volume, pitch, alarm text.
+- **Language Enablement**: To adapt to users from different countries, configure **which languages to enable** in the project. After configuration, users can switch to enabled language interfaces during runtime. **Chinese and English are enabled by default**.
 
-![图片描述](../images/控件照片/编辑器介绍/6.png)
+![Image Description](../../images/控件照片/编辑器介绍/6.png)
 
-图 1-6
+Figure 1-6
 
-## 三、预览功能
+## 3. Preview Function
 
-为了测试已绘制画面的交互与功能是否符合预期，编辑器提供了**预览模式**。
+To test whether the interaction and functionality of the drawn screen meet expectations, the editor provides **preview mode**.
 
-- **进入方式**：点击编辑器中的 **“预览”** 按钮。
-- **预览效果**：系统将在**新的浏览器标签页**中打开当前画面。
-- **交互测试**：在预览模式下，您可以像真实用户一样与控件进行交互，例如：点击按钮执行其脚本动作，或在输入框中输入值以查看变量更新效果，从而验证所有绑定和脚本逻辑是否正确工作。
+- **Entry Method**: Click the **"Preview"** button in the editor.
+- **Preview Effect**: The system will open the current screen in a **new browser tab**.
+- **Interaction Testing**: In preview mode, you can interact with controls like a real user, for example: click buttons to execute their script actions, or input values in input boxes to check variable update effects, thereby verifying that all bindings and script logic work correctly.
 
-![图片描述](../images/控件照片/编辑器介绍/7.png)
+![Image Description](../images/控件照片/编辑器介绍/7.png)
 
-图 1-7
+Figure 1-7

@@ -1,68 +1,68 @@
-## 一、概述
+## 1. Overview
 
-图符库是项目中所有图符的集中管理中心。通过“图符”窗口，您可以对图符库和图符进行系统化的创建、组织、编辑和维护操作。
+The Symbol Library is the centralized management center for all symbols in the project. Through the "Symbols" window, you can systematically create, organize, edit, and maintain symbol libraries and symbols.
 
-## 二、图符库操作
+## 2. Symbol Library Operations
 
-### 1. 新增图符库
+### 1. Add New Symbol Library
 
-- **操作路径**：在“图符”窗口中，点击右侧的 **“新增”** 按钮。
-- **执行结果**：系统将自动创建一个新的图符库，其**默认名称为“图符库1”**。
-- **命名管理**：
+- **Operation Path**: In the "Symbols" window, click the **"Add"** button on the right.
+- **Execution Result**: The system will automatically create a new symbol library with the **default name "Symbol Library 1"**.
+- **Name Management**:
 
-  - 新建成功后，库名将**自动处于可编辑状态**，此时可直接修改名称。
-  - 若需再次修改，**双击**图符库名称即可重新进入编辑状态。
+  - After successful creation, the library name will **automatically be in editable state**, and you can modify it directly at this time.
+  - If you need to modify it again, **double-click** the symbol library name to re-enter edit mode.
 
-![图片描述](../images/控件照片/图符/1.png)
+![Image Description](../images/控件照片/图符/1.png)
 
-图 1-1
+Figure 1-1
 
-### 2. 粘贴图符
+### 2. Paste Symbol
 
-- **操作路径**：将已创建好的图符（从其他位置**复制**后），在目标图符库上执行**粘贴**操作。
-- **执行结果**：图符将被添加至该图符库中。
+- **Operation Path**: Take a created symbol (after **copying** from other locations) and perform a **paste** operation on the target symbol library.
+- **Execution Result**: The symbol will be added to the symbol library.
 
-![图片描述](../images/控件照片/图符/2.png)
+![Image Description](../images/控件照片/图符/2.png)
 
-图 1-2
+Figure 1-2
 
-### 3. 删除图符库
+### 3. Delete Symbol Library
 
-- **操作路径**：**右键点击**需要删除的图符库名称。
-- **执行结果**：选择删除操作后，系统将**删除当前图符库及其包含的所有图符资源**。
-- **安全提示**：删除前，系统会弹出确认对话框，以防止误操作。
+- **Operation Path**: **Right-click** the name of the symbol library you want to delete.
+- **Execution Result**: After selecting the delete operation, the system will **delete the current symbol library and all symbol resources it contains**.
+- **Safety Tip**: The system will pop up a confirmation dialog box before deletion to prevent accidental operations.
 
-![图片描述](../images/控件照片/图符/3.png)
+![Image Description](../images/控件照片/图符/3.png)
 
-图 1-3
+Figure 1-3
 
-## 三、图符操作（在指定图符库内）
+## 3. Symbol Operations (Within Specified Symbol Library)
 
-### 1. 新建图符
+### 1. Create New Symbol
 
-- **操作路径**：在目标图符库下方，点击 **“+”** 按钮。
-- **执行流程**：输入图符名称 → 确认 → 新建成功。
-- **后续设计**：新建成功后，即可从控件面板拖拽基础控件，或从图片库拖拽图片资源到该图符的编辑区域进行设计。
+- **Operation Path**: Below the target symbol library, click the **"+"** button.
+- **Execution Process**: Enter symbol name → Confirm → Creation successful.
+- **Follow-up Design**: After successful creation, you can drag basic controls from the control panel or drag image resources from the image library to the symbol's editing area for design.
 
-![图片描述](../images/控件照片/图符/4.png)
+![Image Description](../images/控件照片/图符/4.png)
 
-图 1-4
+Figure 1-4
 
-### 2. 重命名图符
+### 2. Rename Symbol
 
-- **操作路径**：**右键点击**需要修改的图符，在菜单中选择“重命名”。
-- **执行结果**：图符名称进入可编辑状态，输入新名称后确认即可。
+- **Operation Path**: **Right-click** the symbol you want to modify and select "Rename" in the menu.
+- **Execution Result**: The symbol name enters editable state, enter the new name and confirm.
 
-### 3. 复制图符
+### 3. Copy Symbol
 
-- **操作路径**：**右键点击**需要复制的图符，在菜单中选择“复制”。
-- **执行结果**：生成一个该图符的副本，可用于快速创建相似图符或在其他库中粘贴使用。
+- **Operation Path**: **Right-click** the symbol you want to copy and select "Copy" in the menu.
+- **Execution Result**: Generate a duplicate of the symbol, which can be used to quickly create similar symbols or paste in other libraries.
 
-### 4. 删除图符
+### 4. Delete Symbol
 
-- **操作路径**：**右键点击**需要删除的图符，在菜单中选择“删除”。
-- **执行结果**：从当前图符库中移除该图符。
+- **Operation Path**: **Right-click** the symbol you want to delete and select "Delete" in the menu.
+- **Execution Result**: Remove the symbol from the current symbol library.
 
-![图片描述](../images/控件照片/图符/5.png)
+![Image Description](../images/控件照片/图符/5.png)
 
-图 1-5
+Figure 1-5

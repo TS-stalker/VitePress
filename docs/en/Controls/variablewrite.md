@@ -1,34 +1,34 @@
-## 一、概述
+## 1. Overview
 
-变量写值是实现系统逻辑控制与数据流驱动的核心操作。通过此功能，您可以将画面控件的当前属性值、手动输入的自定义值或其他变量值，写入到目标变量中。目标变量的值一旦发生变化，即可触发与之绑定的联动逻辑、事件或动画，从而驱动整个应用的动态行为。
+Variable write value is the core operation for implementing system logic control and data flow driving. Through this function, you can write the current property value of screen controls, manually entered custom values, or other variable values to the target variable. Once the target variable's value changes, it can trigger the linked logic, events, or animations bound to it, thereby driving the dynamic behavior of the entire application.
 
-## 二、功能详解
+## 2. Function Details
 
-### 1. 写入值的来源
+### 1. Sources of Values to Write
 
-- **复制控件属性值**：将画面上某个控件（如输入框、下拉框、滑动条）的当前属性值，直接写入目标变量。
-- **复制其他变量值**：将一个变量的当前值，赋值给另一个变量。
-- **自定义固定值**：直接手动输入一个固定的数值、字符串或布尔值，并写入目标变量。
+- **Copy Control Property Value**: Directly write the current property value of a control on the screen (such as input box, dropdown box, slider) to the target variable.
+- **Copy Other Variable Value**: Assign the current value of one variable to another variable.
+- **Custom Fixed Value**: Directly manually input a fixed numeric value, string, or boolean value and write it to the target variable.
 
-### 2. 核心作用与价值
+### 2. Core Functions and Value
 
-- **实现逻辑控制**：通过修改变量的值，可以作为条件判断的开关或状态标识，从而控制其他部分的程序流程（如显示/隐藏控件、启用/禁用功能）。
-- **驱动事件与动画**：许多事件（动作执行）和动画效果的触发条件是变量值的改变。通过写值操作，可以主动触发这些响应。
-- **实现数据同步**：在不同控件或模块间同步数据状态
+- **Implement Logic Control**: By modifying variable values, they can serve as switches or status identifiers for conditional judgments, thereby controlling program flows in other parts (such as showing/hiding controls, enabling/disabling functions).
+- **Drive Events and Animations**: Many events (action execution) and animation effects are triggered by changes in variable values. Through write operations, these responses can be actively triggered.
+- **Implement Data Synchronization**: Synchronize data states between different controls or modules.
 
-## 三、典型应用流程
+## 3. Typical Application Process
 
-1. **配置写值动作**：在控件（如按钮）的“动作”设置中，选择“变量写值”。
-2. **选择目标变量**：指定要写入的变量。
-3. **设定写入的值**：
+1. **Configure Write Action**: In the "Actions" settings of a control (such as a button), select "Variable Write Value".
+2. **Select Target Variable**: Specify the variable to write to.
+3. **Set the Value to Write**:
 
-   1. 选择“绑定”，从控件属性或其他变量中获取值。
-   2. 选择“自定义”，直接输入一个固定的值。
-4. **设置触发条件**：定义何时执行此写值操作（如按钮被点击时）。
-5. **产生效果**：当动作触发，目标变量值改变，进而驱动所有绑定到该变量的事件、动画或条件逻辑执行。
+   1. Select "Bind" to get the value from control properties or other variables.
+   2. Select "Custom" to directly input a fixed value.
+4. **Set Trigger Conditions**: Define when to execute this write operation (such as when a button is clicked).
+5. **Produce Effect**: When the action is triggered, the target variable value changes, thereby driving the execution of all events, animations, or conditional logic bound to that variable.
 
-**示例：**
+**Example:**
 
-![图片描述](../images/控件照片/动作/3.gif)
+![Image Description](../images/控件照片/动作/3.gif)
 
-图 1-1
+Figure 1-1

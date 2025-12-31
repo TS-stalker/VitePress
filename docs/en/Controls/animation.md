@@ -1,29 +1,29 @@
-## 一、概述
+## 1. Overview
 
-在 DipuOne 中，合理运用动画效果能够显著提升用户界面的交互体验，使信息传达更直观、状态反馈更明确、操作引导更自然。通过流畅的视觉过渡和动态响应，动画能够有效降低用户的认知负荷，提升操作效率和界面愉悦度。
+In DipuOne, reasonable use of animation effects can significantly enhance the user interface interaction experience, making information communication more intuitive, status feedback clearer, and operation guidance more natural. Through smooth visual transitions and dynamic responses, animations can effectively reduce user cognitive load, improve operational efficiency and interface pleasure.
 
-## 二、启用与设置
+## 2. Enablement and Settings
 
-- **识别动画属性**：当某个控件支持动画效果时，其在右侧属性面板中将显示独立的 **“动画”** 属性栏。
-- **配置动画**：点击该属性栏旁的 **“设置”** 按钮，即可进入动画配置界面，为控件定义动态行为。
+- **Identify Animation Properties**: When a control supports animation effects, it will display a separate **"Animation"** property section in the right property panel.
+- **Configure Animation**: Click the **"Settings"** button next to this property section to enter the animation configuration interface and define dynamic behavior for the control.
 
-## 三、动画类型详解
+## 3. Animation Type Details
 
-DipuOne 提供多种动画类型以适应不同的交互需求：
+DipuOne provides multiple animation types to adapt to different interaction needs:
 
-| 动画类型 | 核心原理与视觉表现                                                                                                                                                 |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 闪烁     | 引人注目的周期性明暗或颜色交替变化。通过绑定变量的值变化来触发或控制闪烁节奏。显示内容：闪烁时可切换为自定义的背景色，或替换为特定的警示图片，以强化视觉提醒效果。 |
-| 填充     | 通过数据值的变化，动态控制图形元素的填充程度（如进度、容量、比例）。填充动画直观地展示了数值的增减和比例的变动。                                                   |
+| Animation Type | Core Principles and Visual Performance |
+| -------------- | -------------------------------------- |
+| Blink | Eye-catching periodic light-dark or color alternating changes. Triggered or controlled by binding variable value changes. Display content: During blinking, can switch to custom background color, or replace with specific warning images to strengthen visual reminder effects. |
+| Fill | Through data value changes, dynamically control the fill level of graphic elements (such as progress, capacity, proportion). Fill animation intuitively displays the increase/decrease and proportion changes of values. |
 
-示例：
+Examples:
 
-![图片描述](../images/控件照片/动画/1.gif)
+![Image Description](../images/控件照片/动画/1.gif)
 
-图 1-1
+Figure 1-1
 
-![图片描述](../images/控件照片/动画/2.gif)
+![Image Description](../images/控件照片/动画/2.gif)
 
-图 1-2
+Figure 1-2
 
-注：如果您还是不太清楚，可以在组态案例中的案例二中看到如何组态动画。
+Note: If you're still not clear, you can see how to configure animations in Case 2 of the configuration examples.

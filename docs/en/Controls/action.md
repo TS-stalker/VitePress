@@ -1,49 +1,48 @@
-## 一、概述
+## 1. Overview
 
-动作是构建交互式应用的核心机制。通过配置动作，您可以定义当特定事件发生时，系统需要执行的操作或程序，从而实现响应式交互、业务流程自动化与数据驱动逻辑。
+Actions are the core mechanism for building interactive applications. By configuring actions, you can define the operations or programs that the system should execute when specific events occur, thereby achieving responsive interactions, automated business processes, and data-driven logic.
 
-在 DipuOne 中，您可以在**画面级别**或**控件级别**的属性面板中，找到 **“动作”** 栏并进行具体设置。
-
-
-
-## 二、触发动作的事件类型
-
-动作的执行需要一个明确的“触发器”，DipuOne 支持多种事件类型来触发动作。
-
-### 1.鼠标事件
-
-鼠标事件是基于用户鼠标操作的基础交互触发方式，**所有控件均支持**。
-
-| 事件类型 | 触发时机                                                |
-| ---- | --------------------------------------------------- |
-| 单击   | 鼠标指针在控件上时，快速按下并释放鼠标左键的完整操作。这是最常用的触发动作，用于确认选择、执行命令等。 |
-| 移入   | 鼠标指针从控件外部移动进入控件可见区域的瞬间触发。常用于实现悬停提示、高亮效果等即时视觉反馈。     |
-| 移出   | 鼠标指针从控件内部移动离开控件可见区域的瞬间触发。通常用于结束悬停状态、恢复控件默认样式。       |
-| 右键   | 鼠标指针在控件上时，按下并释放鼠标右键的操作。通常用于触发特定于右键的辅助功能。            |
+In DipuOne, you can find the **"Actions"** section in the property panel at either the **screen level** or **control level** and make specific settings there.
 
 
 
-## 三、控件专属事件说明
+## 2. Types of Events That Trigger Actions
 
-**重要提示**：除上述通用事件外，部分控件还支持其独有的特殊事件，以提供更精细、更符合其功能特性的交互能力。这些专属事件（如“点击按钮”,“值变化”等）的具体说明和用法，**请参见该控件产品手册的专门章节**，不在本文档中赘述。
+Action execution requires a clear "trigger". DipuOne supports multiple event types to trigger actions.
 
+### 1. Mouse Events
 
+Mouse events are the basic interactive trigger method based on user mouse operations, **supported by all controls**.
 
-## 四、动作执行示例
-
-无论通过何种事件触发，其最终执行的任务（动作）是核心。在 DipuOne 中，您主要可以配置以下两类基础且强大的动作：
-
-1. **导航跳转**：跳转到另一个画面或弹窗。
-
-1. **变量操作**：修改变量的值（写值）
-
-通过将不同的 **“触发事件”**（如单击、值变化）与以上 **“执行动作”**（导航、写值）进行灵活组合，您可以构建出丰富、智能且响应迅速的用户交互体验。
-
-**注意**：关于“导航跳转”与“变量操作”动作的详细配置方法与高级功能，请参见后续的专门章节。
+| Event Type | Trigger Timing |
+| ---------- | -------------- |
+| Click | A complete operation of quickly pressing and releasing the left mouse button when the mouse pointer is on the control. This is the most commonly used trigger action for confirming selections, executing commands, etc. |
+| Mouse Enter | Triggered instantly when the mouse pointer moves from outside the control into the control's visible area. Commonly used to implement hover tips, highlighting effects, and other instant visual feedback. |
+| Mouse Leave | Triggered instantly when the mouse pointer moves from inside the control out of the control's visible area. Usually used to end hover states and restore the control's default style. |
+| Right Click | The operation of pressing and releasing the right mouse button when the mouse pointer is on the control. Usually used to trigger right-click-specific auxiliary functions. |
 
 
 
+## 3. Control-Specific Event Descriptions
+
+**Important Note**: In addition to the general events mentioned above, some controls also support their own unique special events to provide more precise and feature-specific interactive capabilities. For detailed descriptions and usage of these specific events (such as "button click", "value change", etc.), **please refer to the dedicated chapters in the control's product manual**, which are not elaborated upon in this document.
 
 
-### 
 
+## 4. Action Execution Examples
+
+Regardless of the event that triggers it, the final task executed (the action) is the core. In DipuOne, you can mainly configure the following two basic and powerful types of actions:
+
+1. **Navigation Jump**: Jump to another screen or popup.
+
+2. **Variable Operation**: Modify the value of a variable (write value)
+
+By flexibly combining different **"trigger events"** (such as click, value change) with the above **"execution actions"** (navigation, write value), you can build rich, intelligent, and responsive user interaction experiences.
+
+**Note**: For detailed configuration methods and advanced features of "Navigation Jump" and "Variable Operation" actions, please refer to the dedicated chapters that follow.
+
+
+
+
+
+###

@@ -1,72 +1,72 @@
-## 一、概述
+## 1. Overview
 
-图库是项目中图片资源的集中管理中心，通过“图库”窗口，您可以对图片进行系统化的上传、分类和管理。支持上传 **SVG、PNG、JPEG、GIF、JPG** 等主流图片格式。上传后的图片可在**画面编辑、模板设计以及图符创建**中直接使用。
+The Image Library is the centralized management center for image resources in the project. Through the "Image Library" window, you can systematically upload, categorize, and manage images. It supports uploading mainstream image formats such as **SVG, PNG, JPEG, GIF, JPG**. Uploaded images can be used directly in **screen editing, template design, and symbol creation**.
 
-## 二、图库操作
+## 2. Image Library Operations
 
-### 1. 新增图库
+### 1. Add New Image Library
 
-- **操作路径**：在“图库”窗口中，点击 **“+”** 按钮。
-- **执行结果**：系统将自动创建一个新的图库，且**库名处于可编辑状态**。
-- **后续操作**：修改库名后，可单击该图库内的“添加”按钮上传图片。
+- **Operation Path**: In the "Image Library" window, click the **"+"** button.
+- **Execution Result**: The system will automatically create a new image library, and the **library name will be in editable state**.
+- **Follow-up Operations**: After modifying the library name, you can click the "Add" button within the library to upload images.
 
-![图片描述](../images/控件照片/图库/1.png)
+![Image Description](../images/控件照片/图库/1.png)
 
-图 1-1
+Figure 1-1
 
-### 2. 删除图库
+### 2. Delete Image Library
 
-- **操作路径**：点击已建图库**右上角的三个点**菜单按钮。
-- **执行结果**：选择“删除”操作，即可删除当前图库及其包含的所有图片。
-- **注意**：删除前请确认，此操作不可撤销。
+- **Operation Path**: Click the **three-dot menu button** in the top-right corner of the created image library.
+- **Execution Result**: Select the "Delete" operation to delete the current image library and all images it contains.
+- **Note**: Confirm before deletion, this operation cannot be undone.
 
-![图片描述](../images/控件照片/图库/2.png)
+![Image Description](../images/控件照片/图库/2.png)
 
-图 1-2
+Figure 1-2
 
-### 3. 上传图片
+### 3. Upload Images
 
-- **操作路径**：在图库内，点击 **“添加”** 按钮。
-- **执行流程**：
+- **Operation Path**: Within the image library, click the **"Add"** button.
+- **Execution Process**:
 
-  - 系统将弹出“打开文件”对话框。
-  - 在本地计算机中**选择一张或多张**图片（支持多选）。
-  - 点击对话框的 **“打开”** 按钮。
-- **执行结果**：所选图片将上传至当前图库。
+  - The system will pop up an "Open File" dialog box.
+  - **Select one or multiple** images in the local computer (multi-selection supported).
+  - Click the **"Open"** button in the dialog box.
+- **Execution Result**: The selected images will be uploaded to the current image library.
 
-![图片描述](../images/控件照片/图库/3.png)
+![Image Description](../images/控件照片/图库/3.png)
 
-图 1-3
+Figure 1-3
 
-## 三、图片操作
+## 3. Image Operations
 
-### 1. 重命名图片
+### 1. Rename Image
 
-- **操作路径**：在图库中，**右键点击**需要重命名的图片。
-- **执行结果**：在菜单中选择“重命名”，输入新名称后确认即可。
+- **Operation Path**: In the image library, **right-click** the image that needs to be renamed.
+- **Execution Result**: Select "Rename" in the menu, enter the new name and confirm.
 
-### 2. 更新图片
+### 2. Update Image
 
-- **操作路径**：在图库中，**右键点击**需要替换的图片。
-- **执行结果**：在菜单中选择“更新”，重新选择一张本地图片上传，**新图片将覆盖旧图片**，而图片在项目中的引用关系保持不变。
+- **Operation Path**: In the image library, **right-click** the image that needs to be replaced.
+- **Execution Result**: Select "Update" in the menu, re-select a local image to upload, the **new image will overwrite the old image**, while the image's reference relationships in the project remain unchanged.
 
-### 3. 删除图片
+### 3. Delete Image
 
-- **操作路径**：在图库中，**右键点击**需要删除的图片。
-- **执行结果**：在菜单中选择“删除”，即可从当前图库中移除该图片。
+- **Operation Path**: In the image library, **right-click** the image that needs to be deleted.
+- **Execution Result**: Select "Delete" in the menu to remove the image from the current image library.
 
-![图片描述](../images/控件照片/图库/4.png)
+![Image Description](../images/控件照片/图库/4.png)
 
-图 1-4
+Figure 1-4
 
-## 四、使用图片
+## 4. Using Images
 
-图片上传至图库后，使用非常简单：
+After images are uploaded to the image library, using them is very simple:
 
-1. 打开需要使用图片的画面、模板或图符编辑器。
-2. 从“图库”窗口中，找到并选中目标图片。
-3. **直接将图片拖拽到**画布上的目标位置，即可完成放置。
+1. Open the screen, template, or symbol editor where you need to use the image.
+2. From the "Image Library" window, find and select the target image.
+3. **Directly drag the image** to the target position on the canvas to complete placement.
 
-![图片描述](../images/控件照片/图库/5.png)
+![Image Description](../images/控件照片/图库/5.png)
 
-图 1-5
+Figure 1-5
