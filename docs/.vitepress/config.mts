@@ -394,6 +394,34 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "动作",
+                collapsed: true,
+                items: [
+                  {
+                    text: "动作介绍",
+                    link: "/Controls/action", // 简化路径
+                  },
+                  {
+                    text: "导航",
+                    link: "/Controls/navigation", // 简化路径
+                  },
+                  {
+                    text: "变量写值",
+                    link: "/Controls/variablewrite", // 简化路径
+                  },
+                ],
+              },
+              {
+                text: "动画",
+                collapsed: true,
+                items: [
+                  {
+                    text: "动画介绍",
+                    link: "/Controls/animation", // 简化路径
+                  },
+                ],
+              },
             ],
           },
         ],
