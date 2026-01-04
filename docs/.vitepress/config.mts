@@ -46,6 +46,7 @@ export default defineConfig({
       title: "DipuOne产品手册",
       description: "A VitePress Site",
       themeConfig: {
+        // logo: "/logo.png",
         // 导航栏
         nav: [
           { text: "首页", link: "/" },
