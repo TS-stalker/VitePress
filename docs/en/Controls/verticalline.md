@@ -2,7 +2,7 @@
 
 Vertical line shape controls are used to create and edit vertical straight line graphic elements on the canvas. They provide precise tools for design scenarios that require strict vertical alignment and separation, ensuring vertical lines and precise layout.
 
-![Image Description](../../images/控件照片/垂直线/1.png)
+![Image Description](../../images/Controls/垂直线/1.png)
 
 ## 2. Usage Scenarios
 
@@ -29,7 +29,7 @@ Vertical line controls are used in the following scenarios:
 
 This example is creating a vertical line and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/垂直线/2.gif)
+![Image Description](../../images/Controls/垂直线/2.gif)
 
 Figure 1-1
 
@@ -40,14 +40,14 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name   | Description                                                   |
-| ------ | ------------------------------------------------------------- |
-| Name   | The name of this control.                                         |
-| X      | The distance from the left side of the control to the left side of the canvas, in px.                     |
-| Y      | The distance from the top of the control to the top of the canvas, in px.                     |
-| W      | The width of the control, in px. Fixed at 1px                          |
-| H      | The height of the control, in px.                                   |
-| Angle   | The rotation angle of the control                                         |
-| Opacity | The opacity of the control                                           |
-| Line   | The line color of the control<br />The line style of the control<br />The line thickness of the control |
-| Permission   | Set the permissions of the control, control display/hide or enable/disable                  |
+| Name       | Description                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| Name       | The name of this control.                                                                               |
+| X          | The distance from the left side of the control to the left side of the canvas, in px.                   |
+| Y          | The distance from the top of the control to the top of the canvas, in px.                               |
+| W          | The width of the control, in px. Fixed at 1px                                                           |
+| H          | The height of the control, in px.                                                                       |
+| Angle      | The rotation angle of the control                                                                       |
+| Opacity    | The opacity of the control                                                                              |
+| Line       | The line color of the control<br />The line style of the control<br />The line thickness of the control |
+| Permission | Set the permissions of the control, control display/hide or enable/disable                              |

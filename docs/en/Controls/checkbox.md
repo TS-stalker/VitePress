@@ -2,7 +2,7 @@
 
 Checkbox controls are used to represent the switching selection of two states. Users switch the state of corresponding functions by checking or unchecking, supporting independent selection of single or multiple options.
 
-![Image Description](../../images/控件照片/复选框/1.png)
+![Image Description](../../images/Controls/复选框/1.png)
 
 ## 2. Usage Scenarios
 
@@ -31,7 +31,7 @@ Checkbox controls are used in the following scenarios:
 
 This example is a data export option. Set multiple checkboxes for users to select the data fields that need to be exported, such as "Export Basic Information", "Export Operation Log", "Export Statistical Report", etc., to achieve flexible export content customization. As shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/复选框/2.gif)
+![Image Description](../../images/Controls/复选框/2.gif)
 
 Figure 1-1
 
@@ -43,17 +43,17 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name   | Description                                                                                                                                         |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name   | The name of this control.                                                                                                                           |
-| X      | The distance from the left side of the control to the left side of the canvas, in px.                                                               |
-| Y      | The distance from the top of the control to the top of the canvas, in px.                                                                           |
-| W      | The width of the control, in px.                                                                                                                   |
-| H      | The height of the control, in px.                                                                                                                  |
-| Angle  | The rotation angle of the control                                                                                                                   |
-| Opacity | The opacity of the control                                                                                                                          |
-| Selected | The selected state of the control.                                                                                                                 |
-| Fill   | The fill color of the control.<br />![Image Description](../../images/控件照片/复选框/3.png)<br />The text content displayed by the control.<br />![Image Description](../../images/控件照片/复选框/4.png) |
-| Border Color | The border color of the control.<br />![Image Description](../../images/控件照片/复选框/5.png)                                                      |
-| Font   | Set the font of the text content. Includes font type, font size, font color, bold, italic, underline, horizontal alignment, vertical alignment.      |
-| Permission | Set the permissions of the control, control display/hide or enable/disable                                                                        |
+| Name         | Description                                                                                                                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name         | The name of this control.                                                                                                                                                                                  |
+| X            | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                      |
+| Y            | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                  |
+| W            | The width of the control, in px.                                                                                                                                                                           |
+| H            | The height of the control, in px.                                                                                                                                                                          |
+| Angle        | The rotation angle of the control                                                                                                                                                                          |
+| Opacity      | The opacity of the control                                                                                                                                                                                 |
+| Selected     | The selected state of the control.                                                                                                                                                                         |
+| Fill         | The fill color of the control.<br />![Image Description](../../images/Controls/复选框/3.png)<br />The text content displayed by the control.<br />![Image Description](../../images/Controls/复选框/4.png) |
+| Border Color | The border color of the control.<br />![Image Description](../../images/Controls/复选框/5.png)                                                                                                             |
+| Font         | Set the font of the text content. Includes font type, font size, font color, bold, italic, underline, horizontal alignment, vertical alignment.                                                            |
+| Permission   | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                 |

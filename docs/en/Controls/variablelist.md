@@ -2,7 +2,7 @@
 
 Variable list controls are used to centrally display the names and current values of multiple variables, supporting real-time data updates and numerical formatting, providing an intuitive data monitoring interface, making it convenient for users to view and manage multiple related variables simultaneously.
 
-![Image Description](../../images/控件照片/变量列表/1.png)
+![Image Description](../../images/Controls/变量列表/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Variable list controls are used in the following scenarios:
 
 This example is a device parameter setting list. Display all configurable parameters of the device and their current values, such as "DC Column Header Cabinet Power (kW)", "AC Column Header Cabinet Power (kW)", etc., making it convenient for operators to quickly check and adjust. As shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/变量列表/2.gif)
+![Image Description](../../images/Controls/变量列表/2.gif)
 
 Figure 1-1
 

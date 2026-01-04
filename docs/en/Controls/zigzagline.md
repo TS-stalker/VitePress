@@ -2,7 +2,7 @@
 
 Zigzag line shape controls are used to create and edit zigzag graphics composed of multiple connected line segments on the canvas, supporting free drawing and precise editing, suitable for creating complex paths, connection lines, and polygon outlines.
 
-![Image Description](../../images/控件照片/折线/1.png)
+![Image Description](../../images/Controls/折线/1.png)
 
 ## 2. Usage Scenarios
 
@@ -31,7 +31,7 @@ Zigzag line controls are used in the following scenarios:
 
 This example is creating a zigzag line and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/折线/2.gif)
+![Image Description](../../images/Controls/折线/2.gif)
 
 Figure 1-1
 
@@ -44,14 +44,14 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name   | Description                                                   |
-| ------ | ------------------------------------------------------------- |
-| Name   | The name of this control.                                         |
-| X      | The distance from the left side of the control to the left side of the canvas, in px.                     |
-| Y      | The distance from the top of the control to the top of the canvas, in px.                     |
-| W      | The width of the control, in px. Fixed at 1px                          |
-| H      | The height of the control, in px.                                   |
-| Angle   | The rotation angle of the control                                         |
-| Opacity | The opacity of the control                                           |
-| Line   | The line color of the control<br />The line style of the control<br />The line thickness of the control |
-| Permission   | Set the permissions of the control, control display/hide or enable/disable                  |
+| Name       | Description                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| Name       | The name of this control.                                                                               |
+| X          | The distance from the left side of the control to the left side of the canvas, in px.                   |
+| Y          | The distance from the top of the control to the top of the canvas, in px.                               |
+| W          | The width of the control, in px. Fixed at 1px                                                           |
+| H          | The height of the control, in px.                                                                       |
+| Angle      | The rotation angle of the control                                                                       |
+| Opacity    | The opacity of the control                                                                              |
+| Line       | The line color of the control<br />The line style of the control<br />The line thickness of the control |
+| Permission | Set the permissions of the control, control display/hide or enable/disable                              |

@@ -1,6 +1,6 @@
 用户在成功登录后，可通过点击””创建新项目”来打开项目列表，或者直接打开已建的项目
 
-![图片描述](../images/ManagementPlatform/项目列表1.png)
+![图片描述](../images/ManagementPlatform/projectlist1.png)
 
 ## 功能描述
 
@@ -10,13 +10,13 @@
 
 用户可以通过左上角输入框，对项目名称进行模糊查询
 
-![图片描述](../images/ManagementPlatform/项目列表2.png)
+![图片描述](../images/ManagementPlatform/projectlist2.png)
 
 ## 添加
 
 用户点击右上角”添加”按钮，填入项目信息后，可实现新增项目。
 
-![图片描述](../images/ManagementPlatform/项目列表3.png)
+![图片描述](../images/ManagementPlatform/projectlist3.png)
 
 **配置项**
 
@@ -32,25 +32,25 @@
 
 用户可点击项目列表任意项目右侧”信息”按钮，将弹出信息框，包含项目的信息：名称、图片、负责人、负责人电话、描述，可以在这里对项目的一些信息进行修改完善。
 
-![图片描述](../images/ManagementPlatform/项目列表4.png)
+![图片描述](../images/ManagementPlatform/projectlist4.png)
 
 ## 设计
 
 用户可点击项目列表任意项目右侧”设计”按钮，将跳转到组态设计页面
 
-![图片描述](../images/ManagementPlatform/项目列表5.png)
+![图片描述](../images/ManagementPlatform/projectlist5.png)
 
 ## 管理
 
 用户可点击项目列表任意项目右侧”管理”按钮，将跳转到项目管理页面，该页面分为空间管理、连接管理、设备管理、组态设计、权限管理、国际化这六个功能模块，管理功能详细介绍见后续章节。
 
-![图片描述](../images/ManagementPlatform/项目列表6.png)
+![图片描述](../images/ManagementPlatform/projectlist6.png)
 
 ## 更多
 
 用户鼠标悬停到更多上，将展示下载客户端、复制、导出、分享、删除功能
 
-![图片描述](../images/ManagementPlatform/项目列表7.png)
+![图片描述](../images/ManagementPlatform/projectlist7.png)
 
 ## 下载客户端
 
@@ -62,21 +62,21 @@
 
 成功复制后，会生成一个全新的项目，内部数据与被复制的项目完全相同
 
-![图片描述](../images/ManagementPlatform/项目列表8.png)
+![图片描述](../images/ManagementPlatform/projectlist8.png)
 
 ## 导出
 
 任意项目数据更多按钮下拉菜单中包含**导出**选项，用户可以导出下载任意项目数据。导出后的文件以zip格式存储到本地的下载目录下，可用作项目的备份以及多节点间项目的同步。
 
-![图片描述](../images/ManagementPlatform/项目列表9.png)
+![图片描述](../images/ManagementPlatform/projectlist9.png)
 
 ## 分享
 
 任意项目数据更多按钮下拉菜单中包含分享选项，用户可以分享项目给其他用户，分享按钮将生成一个链接，默认复制到本机的粘贴板中，其他用户打开时是本项目的运行画面。如果项目没有运行画面，会提示”该项目没有可运行组态画面”
 
-![图片描述](../images/ManagementPlatform/项目列表10.png)
+![图片描述](../images/ManagementPlatform/projectlist10.png)
 
-![图片描述](../images/ManagementPlatform/项目列表11.png)
+![图片描述](../images/ManagementPlatform/projectlist11.png)
 
 ## 删除
 
@@ -86,10 +86,10 @@
 
 注意：删除后不可恢复，请谨慎删除。
 
-![图片描述](../images/ManagementPlatform/项目列表12.png)
+![图片描述](../images/ManagementPlatform/projectlist12.png)
 
 ## 导入
 
 用户点击右上角**导入**按钮，将先前导出的.zip文件导入到DipuCore系统中。
 
-![图片描述](../images/ManagementPlatform/项目列表13.png)
+![图片描述](../images/ManagementPlatform/projectlist13.png)

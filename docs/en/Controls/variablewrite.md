@@ -29,6 +29,6 @@ Variable write value is the core operation for implementing system logic control
 
 **Example:**
 
-![Image Description](../../images/控件照片/动作/3.gif)
+![Image Description](../../images/Controls/动作/3.gif)
 
 Figure 1-1

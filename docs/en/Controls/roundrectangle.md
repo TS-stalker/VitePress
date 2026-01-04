@@ -2,7 +2,7 @@
 
 Round rectangle shape controls are used to create and edit rectangular graphic elements with rounded corners on the canvas. They combine the practicality of rectangles with the visual softness of rounded corners, and are widely used basic shape elements in modern interface design.
 
-![Image Description](../../images/控件照片/圆角矩形/1.png)
+![Image Description](../../images/Controls/圆角矩形/1.png)
 
 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Round rectangle controls are used in the following scenarios:
 
 This example is creating a round rectangle and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/圆角矩形/2.gif)
+![Image Description](../../images/Controls/圆角矩形/2.gif)
 
 Figure 1-1
 
@@ -43,16 +43,16 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name   | Description                                                                   |
-| ------ | ----------------------------------------------------------------------------- |
-| Name   | The name of this control.                                                         |
-| X      | The distance from the left side of the control to the left side of the canvas, in px.                                     |
-| Y      | The distance from the top of the control to the top of the canvas, in px.                                     |
-| W      | The width of the control, in px.                                                   |
-| H      | The height of the control, in px.                                                   |
-| Angle   | The rotation angle of the control                                                         |
-| Opacity | The opacity of the control                                                           |
-| Corner Radius   | The arc radius of the corners around the control                                                   |
-| Fill   | The fill color of the control<br />The fill degree of the control<br />The direction of the fill<br />Set the range of fill values |
-| Border   | The border color of the control<br />The line type of the control's border<br />The line thickness of the control's border     |
-| Permission   | Set the permissions of the control, control display/hide or enable/disable                                  |
+| Name          | Description                                                                                                                        |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Name          | The name of this control.                                                                                                          |
+| X             | The distance from the left side of the control to the left side of the canvas, in px.                                              |
+| Y             | The distance from the top of the control to the top of the canvas, in px.                                                          |
+| W             | The width of the control, in px.                                                                                                   |
+| H             | The height of the control, in px.                                                                                                  |
+| Angle         | The rotation angle of the control                                                                                                  |
+| Opacity       | The opacity of the control                                                                                                         |
+| Corner Radius | The arc radius of the corners around the control                                                                                   |
+| Fill          | The fill color of the control<br />The fill degree of the control<br />The direction of the fill<br />Set the range of fill values |
+| Border        | The border color of the control<br />The line type of the control's border<br />The line thickness of the control's border         |
+| Permission    | Set the permissions of the control, control display/hide or enable/disable                                                         |

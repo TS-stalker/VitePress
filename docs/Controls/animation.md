@@ -18,11 +18,11 @@ DipuOne 提供多种动画类型以适应不同的交互需求：
 
 示例：
 
-![图片描述](../images/控件照片/动画/1.gif)
+![图片描述](../images/Controls/动画/1.gif)
 
 图 1-1
 
-![图片描述](../images/控件照片/动画/2.gif)
+![图片描述](../images/Controls/动画/2.gif)
 
 图 1-2
 

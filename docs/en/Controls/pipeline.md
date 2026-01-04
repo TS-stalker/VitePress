@@ -2,7 +2,7 @@
 
 Pipeline shape controls are used to create and edit pipeline graphics on the canvas, simulating physical pipelines in industrial processes, supporting multi-segment connections and custom styles, suitable for pipeline network drawing in process flow diagrams and system connection diagrams.
 
-![Image Description](../../images/控件照片/管道/1.png)
+![Image Description](../../images/Controls/管道/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Pipeline controls are used in the following scenarios:
 
 This example is creating a pipeline and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/管道/2.gif)
+![Image Description](../../images/Controls/管道/2.gif)
 
 Figure 1-1
 
@@ -52,32 +52,32 @@ In addition to general drawing operations, pipeline controls support the followi
 
 ### 1. Continuous Drawing Mode
 
-| Operation         | Effect and Illustration                                                                                                        |
-| ------------ | ----------------------------------------------------------------------------------------------------------------- |
+| Operation                      | Effect and Illustration                                                                                                                                                                                                                 |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Double-click Pipeline Endpoint | Enter continuous drawing mode. The mouse will automatically snap to that endpoint, and you can continue dragging to draw the next connected pipeline segment, achieving uninterrupted pipeline network drawing. As shown in Figure 1-2. |
 
-![Image Description](../../images/控件照片/管道/3.gif)
+![Image Description](../../images/Controls/管道/3.gif)
 
 Figure 1-2
 
 ### 2. Advanced Adjustment and Auxiliary Functions
 
-| Operation                  | Function Description                                                                                                                           |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Hold Ctrl Key + Drag Endpoint | Enter free rotation mode. At this time, dragging the endpoint can rotate the pipeline direction at any angle, not limited to horizontal or vertical extension, suitable for drawing diagonal pipelines.                                 |
+| Operation                                   | Function Description                                                                                                                                                                                                                                                                     |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hold Ctrl Key + Drag Endpoint               | Enter free rotation mode. At this time, dragging the endpoint can rotate the pipeline direction at any angle, not limited to horizontal or vertical extension, suitable for drawing diagonal pipelines.                                                                                  |
 | Display Alignment Lines When Drawing/Moving | When drawing a new pipeline or moving an existing pipeline, the system will automatically display intelligent alignment reference lines (such as horizontal, vertical, or alignment with other pipeline endpoints) to assist in achieving precise endpoint docking and layout alignment. |
 
 ## 5. Property Details
 
-| Name   | Description                                                                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Name   | The name of this control.                                                                                                                                                     |
-| X      | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                                 |
-| Y      | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                 |
-| W      | The width of the control, in px.                                                                                                                                               |
-| H      | The height of the control, in px.                                                                                                                                               |
-| Angle   | The rotation angle of the control                                                                                                                                                     |
-| Opacity | The opacity of the control                                                                                                                                                       |
-| Pipeline   | Select the shape of the pipeline<br />The background color of the pipeline during operation<br />The background color of the pipeline when stopped<br />The diameter of the pipeline<br />Whether the pipeline is three-dimensional                                                                 |
-| Fluid   | Enable fluid in the pipeline<br />The shape of the fluid in the pipeline<br />The width and height of the fluid in the pipeline<br />The spacing of the fluid in the pipeline<br />The flow rate of the fluid in the pipeline<br />The flow direction of the fluid in the pipeline<br />The style of the fluid in the pipeline when stopped |
-| Permission   | Set the permissions of the control, control display/hide or enable/disable                                                                                                                              |
+| Name       | Description                                                                                                                                                                                                                                                                                                                                 |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name       | The name of this control.                                                                                                                                                                                                                                                                                                                   |
+| X          | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                                                                                                                                                       |
+| Y          | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                                                                                                                                                   |
+| W          | The width of the control, in px.                                                                                                                                                                                                                                                                                                            |
+| H          | The height of the control, in px.                                                                                                                                                                                                                                                                                                           |
+| Angle      | The rotation angle of the control                                                                                                                                                                                                                                                                                                           |
+| Opacity    | The opacity of the control                                                                                                                                                                                                                                                                                                                  |
+| Pipeline   | Select the shape of the pipeline<br />The background color of the pipeline during operation<br />The background color of the pipeline when stopped<br />The diameter of the pipeline<br />Whether the pipeline is three-dimensional                                                                                                         |
+| Fluid      | Enable fluid in the pipeline<br />The shape of the fluid in the pipeline<br />The width and height of the fluid in the pipeline<br />The spacing of the fluid in the pipeline<br />The flow rate of the fluid in the pipeline<br />The flow direction of the fluid in the pipeline<br />The style of the fluid in the pipeline when stopped |
+| Permission | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                                                                                                                                                  |

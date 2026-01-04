@@ -2,7 +2,7 @@
 
 Historical report controls are used to centrally display and analyze variable data in visual forms such as tables and charts, supporting multi-dimensional data statistics and flexible format configuration, providing professional data presentation tools for historical data review, performance analysis, and decision support.
 
-![Image Description](../../images/控件照片/历史报表/1.png)
+![Image Description](../../images/Controls/历史报表/1.png)
 
 ## 2. Usage Scenarios
 
@@ -37,7 +37,7 @@ Historical report controls are used in the following scenarios:
 
 This example is creating a monthly production data report. Bind key variables such as product output and energy consumption, set time frequency to daily statistics, display daily change trends and monthly summary data of each indicator, and display the output proportion of each product line through pie charts. As shown in Figure 1-1.
 
-![Image Description](../../images/控件照片/历史报表/2.gif)
+![Image Description](../../images/Controls/历史报表/2.gif)
 
 Figure 1-1
 
@@ -51,13 +51,13 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name     | Description                                |
-| -------- | ------------------------------------------- |
-| Name     | The name of this control.                      |
-| X        | The distance from the left side of the control to the left side of the canvas, in px.  |
-| Y        | The distance from the top of the control to the top of the canvas, in px.  |
-| W        | The width of the control, in px.                |
-| H        | The height of the control, in px.                |
-| Background     | The background color of the report                        |
-| Legend     | Display/hide legend of pie charts and line charts in the report |
-| Dark Mode | Enable dark mode of the report                |
+| Name       | Description                                                                           |
+| ---------- | ------------------------------------------------------------------------------------- |
+| Name       | The name of this control.                                                             |
+| X          | The distance from the left side of the control to the left side of the canvas, in px. |
+| Y          | The distance from the top of the control to the top of the canvas, in px.             |
+| W          | The width of the control, in px.                                                      |
+| H          | The height of the control, in px.                                                     |
+| Background | The background color of the report                                                    |
+| Legend     | Display/hide legend of pie charts and line charts in the report                       |
+| Dark Mode  | Enable dark mode of the report                                                        |

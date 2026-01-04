@@ -42,4 +42,4 @@
 
 通过数据看板，用户可以快速掌握全局运行态势，识别潜在问题，并基于丰富的可视化信息做出高效决策。
 
-![图片描述](../images/ManagementPlatform/数据看板1.png)
+![图片描述](../images/ManagementPlatform/dashboard1.png)
