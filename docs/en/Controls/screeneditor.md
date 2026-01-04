@@ -131,6 +131,6 @@ To test whether the interaction and functionality of the drawn screen meet expec
 - **Preview Effect**: The system will open the current screen in a **new browser tab**.
 - **Interaction Testing**: In preview mode, you can interact with controls like a real user, for example: click buttons to execute their script actions, or input values in input boxes to check variable update effects, thereby verifying that all bindings and script logic work correctly.
 
-![Image Description](../images/控件照片/编辑器介绍/7.png)
+![Image Description](../../images/控件照片/编辑器介绍/7.png)
 
 Figure 1-7

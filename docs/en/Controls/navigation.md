@@ -16,7 +16,7 @@ Navigation actions are the core interactive functions for building multi-screen 
 
 **Example:**
 
-![Image Description](../images/控件照片/动作/1.gif)
+![Image Description](../../images/控件照片/动作/1.gif)
 
 Figure 1-1
 
@@ -34,7 +34,7 @@ Figure 1-1
 
 **Example:**
 
-![Image Description](../images/控件照片/动作/2.png)
+![Image Description](../../images/控件照片/动作/2.png)
 
 Figure 1-2
 

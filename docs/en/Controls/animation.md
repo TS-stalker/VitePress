@@ -11,18 +11,18 @@ In DipuOne, reasonable use of animation effects can significantly enhance the us
 
 DipuOne provides multiple animation types to adapt to different interaction needs:
 
-| Animation Type | Core Principles and Visual Performance |
-| -------------- | -------------------------------------- |
-| Blink | Eye-catching periodic light-dark or color alternating changes. Triggered or controlled by binding variable value changes. Display content: During blinking, can switch to custom background color, or replace with specific warning images to strengthen visual reminder effects. |
-| Fill | Through data value changes, dynamically control the fill level of graphic elements (such as progress, capacity, proportion). Fill animation intuitively displays the increase/decrease and proportion changes of values. |
+| Animation Type | Core Principles and Visual Performance                                                                                                                                                                                                                                            |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Blink          | Eye-catching periodic light-dark or color alternating changes. Triggered or controlled by binding variable value changes. Display content: During blinking, can switch to custom background color, or replace with specific warning images to strengthen visual reminder effects. |
+| Fill           | Through data value changes, dynamically control the fill level of graphic elements (such as progress, capacity, proportion). Fill animation intuitively displays the increase/decrease and proportion changes of values.                                                          |
 
 Examples:
 
-![Image Description](../images/控件照片/动画/1.gif)
+![Image Description](../../images/控件照片/动画/1.gif)
 
 Figure 1-1
 
-![Image Description](../images/控件照片/动画/2.gif)
+![Image Description](../../images/控件照片/动画/2.gif)
 
 Figure 1-2
 
