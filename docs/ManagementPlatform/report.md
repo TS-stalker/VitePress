@@ -2,7 +2,7 @@
 
 报表设计模块提供了强大且灵活的数据可视化与导出工具。它既包含**系统内置的历史报表**，也支持用户完全**自定义报表格式**，旨在为关键生产数据提供直观、友好的展示方式。所有报表数据均基于**数据集**，赋予用户查看和分析核心生产数据的充分自由，其主要功能是**数据可视化展示**与**结构化数据下载**。如图1-1所示。
 
-![图片描述](../images/ManagementPlatform/报表设计1.png)
+![图片描述](../images/ManagementPlatform/reportDesign1.png)
 
 图 1-1
 
@@ -19,13 +19,13 @@
 
 如果类型是历史报表，将会选择数据集中个某个数据集作为数据来源 如图 1-2所示
 
-![图片描述](../images/ManagementPlatform/报表设计2.png)
+![图片描述](../images/ManagementPlatform/reportDesign2.png)
 
 图 1-2
 
 如果类型是模版报表，将需要上传相应的模版，如图 1-3所示
 
-![图片描述](../images/ManagementPlatform/报表设计3.png)
+![图片描述](../images/ManagementPlatform/reportDesign3.png)
 
 图 1-3
 
@@ -46,6 +46,6 @@
 
 通过报表设计模块，您可以将原始数据转化为信息明确、形式专业的报告，有效支撑决策分析与信息沟通。
 
-![图片描述](../images/ManagementPlatform/报表设计4.png)
+![图片描述](../images/ManagementPlatform/reportDesign4.png)
 
 图 1-4

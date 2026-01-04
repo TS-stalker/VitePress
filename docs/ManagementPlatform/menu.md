@@ -2,7 +2,7 @@
 
 DipuCore 面向系统管理员提供菜单管理功能，用于集中管理和配置系统的导航菜单结构。它支持**多级菜单嵌套、**丰富的**菜单属性配置**，是构建清晰、安全、可维护的系统导航体系的核心工具。
 
-![图片描述](../images/ManagementPlatform/菜单管理1.png)
+![图片描述](../images/ManagementPlatform/menuManagement1.png)
 
 图 1-1
 
@@ -16,7 +16,7 @@ DipuCore 面向系统管理员提供菜单管理功能，用于集中管理和�
 - **按路由地址搜索**：通过页面的路由路径（URL）精准查找对应的菜单项。
 - **按权限标识搜索**：输入权限编码，可精确查找绑定了特定权限的菜单，便于进行权限审计。
 
-![图片描述](../images/ManagementPlatform/菜单管理2.png)
+![图片描述](../images/ManagementPlatform/menuManagement2.png)
 
 图 1-2
 
@@ -33,7 +33,7 @@ DipuCore 面向系统管理员提供菜单管理功能，用于集中管理和�
 | 类型     | 区分菜单的种类：•功能菜单：可直接点击跳转页面的菜单项。•分组目录：仅用于组织下级菜单的容器（文件夹），自身不可点击。 |
 | 操作     | 对该菜单项提供的功能操作按钮，包括添加、修改、删除。                                                                 |
 
-![图片描述](../images/ManagementPlatform/菜单管理3.png)
+![图片描述](../images/ManagementPlatform/menuManagement3.png)
 
 图 1-3
 
@@ -49,10 +49,10 @@ DipuCore 面向系统管理员提供菜单管理功能，用于集中管理和�
 
 通过以上功能，管理员可以像搭积木一样，灵活构建出层次分明、权限清晰的系统导航菜单，并实现动态的菜单维护与更新。
 
-![图片描述](../images/ManagementPlatform/菜单管理4.png)
+![图片描述](../images/ManagementPlatform/menuManagement4.png)
 
 图 1-4
 
-![图片描述](../images/ManagementPlatform/菜单管理5.png)
+![图片描述](../images/ManagementPlatform/menuManagement5.png)
 
 图 1-5

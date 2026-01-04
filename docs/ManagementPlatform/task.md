@@ -2,7 +2,7 @@
 
 任务管理模块主要用于满足用户**定时或周期性自动导出报表**的需求，同时提供完整的**导出日志记录**功能，方便用户追踪任务执行状态、查看历史记录并下载已生成的报表数据。
 
-![图片描述](../images/ManagementPlatform/任务管理1.png)
+![图片描述](../images/ManagementPlatform/task1.png)
 
 ## 二、如何新建定时任务并导出数据
 
@@ -15,7 +15,7 @@
 - **报表选择**：在任务配置中，选择需要定时导出的**目标报表（来自数据分析-报表设计）**。
 - **数据时间范围**：针对所选报表，设置每次导出时涵盖的**数据时间范围**（如：导出昨日全天数据、导出最近一小时数据等）。
 
-![图片描述](../images/ManagementPlatform/任务管理2.png)
+![图片描述](../images/ManagementPlatform/task2.png)
 
 ### 2. 配置调度策略（何时执行）
 
@@ -29,7 +29,7 @@
 
 配置完成后保存，任务将按照设定的策略自动运行。
 
-![图片描述](../images/ManagementPlatform/任务管理3.png)
+![图片描述](../images/ManagementPlatform/task3.png)
 
 ## 三、任务日志与记录
 
@@ -54,4 +54,4 @@
 
 通过下载功能，用户可以将查询结果持久化保存，用于离线分析、数据存档、报告提交或与其他系统进行数据交换。
 
-![图片描述](../images/ManagementPlatform/任务管理4.gif)
+![图片描述](../images/ManagementPlatform/task4.gif)

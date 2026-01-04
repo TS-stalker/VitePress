@@ -19,7 +19,7 @@
 
 数据集管理页面如图 1-1 所示。
 
-![图片描述](../images/ManagementPlatform/数据集1.png) 图 1-1
+![图片描述](../images/ManagementPlatform/dataset1.png) 图 1-1
 
 ## 三、功能操作区
 
@@ -30,7 +30,7 @@
 - **必填参数**：`Code`（编码）、`名称`、`类型`。
 - **流程**：填写基本信息并保存后，系统将创建一个空的数据集容器，后续需要进一步在其中添加具体的数据项。如图 1-2 所示。
 
-![图片描述](../images/ManagementPlatform/数据集2.png) 图 1-2
+![图片描述](../images/ManagementPlatform/dataset2.png) 图 1-2
 
 ### 2. 修改（配置数据项）
 
@@ -40,7 +40,7 @@
   - **新增/移除数据**：从可用的归档变量池中，选择需要纳入本数据集的特定变量。
   - **配置数据采样方式**：为数据集中的每个变量设置数据的统计与采样规则（如：平均值、最大值、原始值等）。如图 1-3 所示。
 
-![图片描述](../images/ManagementPlatform/数据集3.png)
+![图片描述](../images/ManagementPlatform/dataset3.png)
 
 图1-3
 

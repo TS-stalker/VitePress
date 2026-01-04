@@ -6,7 +6,7 @@
 
 用户在**登录界面的右上角**可以选择系统支持的语言。系统将根据所选语言，动态切换所有界面元素的显示文本。
 
-![图片描述](../images/ManagementPlatform/国际化1.png)
+![图片描述](../images/ManagementPlatform/internationalization1.png)
 
 ## 三、自定义翻译项
 
@@ -18,14 +18,14 @@ DipuCore 为高级用户和开发者提供了自定义国际化翻译的能力�
 - **多语言翻译**：为每个 CODE 填写在不同启用语言下的对应译文。
 - **引用方式**：在脚本或支持动态文本的属性中，使用 `t("CODE")` 的形式引用自定义翻译。系统进行语言切换时，此处将自动替换为对应语言的译文。
 
-![图片描述](../images/ManagementPlatform/国际化2.gif)
+![图片描述](../images/ManagementPlatform/internationalization2.gif)
 
 ### 2. 翻译项管理
 
 - **批量操作**：支持对自定义翻译项进行**批量新增、修改、删除**。
 - **模糊查询**：管理界面左上角提供搜索框，可根据 **CODE** 或**任意语言下的翻译文本**进行模糊查询，快速定位目标条目。
 
-![图片描述](../images/ManagementPlatform/国际化3.gif)
+![图片描述](../images/ManagementPlatform/internationalization3.gif)
 
 ## 四、项目语言配置
 
@@ -34,7 +34,7 @@ DipuCore 为高级用户和开发者提供了自定义国际化翻译的能力�
 - **配置路径**：在**画面组态**（编辑器）的**工具栏选项**中，点击 **“设置”**。
 - **配置项**：在项目设置中，找到并设置 **“启用语言”**。只有在此启用的语言，才会出现在用户的切换列表中。
 
-![图片描述](../images/ManagementPlatform/国际化4.png)
+![图片描述](../images/ManagementPlatform/internationalization4.png)
 
 用户在登录界面的右上角可以获取该系统支持的语言系统，针对使用不同语言的国家，可以在用户登录时，选择合适的语言
 
@@ -42,19 +42,19 @@ DipuCore 为高级用户和开发者提供了自定义国际化翻译的能力�
 
 DipuCore为用户提供自定义的国际化语言切换， 用户可以自定义关键字(CODE)，并填写对应的语言的翻译，点击保存按钮即可。后续在使用到该关键字(CODE)时，使用t("CODE")形式即可，在做国际化切换时，便可正确切换语言。
 
-![图片描述](../images/ManagementPlatform/国际化5.png)
+![图片描述](../images/ManagementPlatform/internationalization5.png)
 
 使用自定义翻译项：
 
-![图片描述](../images/ManagementPlatform/国际化6.png)
+![图片描述](../images/ManagementPlatform/internationalization6.png)
 
 该自定义翻译项支持批量新增/修改/删除
 
-![图片描述](../images/ManagementPlatform/国际化7.png)
+![图片描述](../images/ManagementPlatform/internationalization7.png)
 
 左上角输入框支持模糊查询，可以匹配CODE以及对应语言下的翻译、
 
-![图片描述](../images/ManagementPlatform/国际化8.png)
+![图片描述](../images/ManagementPlatform/internationalization8.png)
 
 ### 设置启用语言
 

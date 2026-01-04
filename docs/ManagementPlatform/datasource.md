@@ -22,11 +22,11 @@
 3. 输入连接名称，系统会自动生成对应驱动的默认参数。
 4. **双击**连接参数进行详细配置，并可**测试连接**以验证配置是否正确。
 
-![图片描述](../images/ManagementPlatform/连接管理1.png)
+![图片描述](../images/ManagementPlatform/datasource1.png)
 
     图 1-1
 
-![图片描述](../images/ManagementPlatform/连接管理2.png)
+![图片描述](../images/ManagementPlatform/datasource2.png)
 
     图 1-2
 
@@ -43,18 +43,18 @@
 
 通过连接管理，您可以将各类数据源统一接入系统，并对每一个数据点的实时监控、报警通知、历史追溯和事件记录进行精细化的配置。
 
-![图片描述](../images/ManagementPlatform/连接管理3.png)
+![图片描述](../images/ManagementPlatform/datasource3.png)
 
     图 1-3
 
-![图片描述](../images/ManagementPlatform/连接管理4.png)
+![图片描述](../images/ManagementPlatform/datasource4.png)
 
     图 1-4
 
-![图片描述](../images/ManagementPlatform/连接管理5.png)
+![图片描述](../images/ManagementPlatform/datasource5.png)
 
     图 1-5
 
-![图片描述](../images/ManagementPlatform/连接管理6.png)
+![图片描述](../images/ManagementPlatform/datasource6.png)
 
     图 1-6

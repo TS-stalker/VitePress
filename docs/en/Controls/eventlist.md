@@ -45,22 +45,22 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name                              | Description                                                         |
-| --------------------------------- | ------------------------------------------------------------------- |
-| Name                              | The name of this control.                                           |
-| X                                 | The distance from the left side of the control to the left side of the canvas, in px. |
-| Y                                 | The distance from the top of the control to the top of the canvas, in px. |
-| W                                 | The width of the control, in px.                                   |
-| H                                 | The height of the control, in px.                                   |
-| ![Image Description](../../images/透明度.png) | The opacity of the control                                         |
-| Refresh Frequency                 | Set the refresh frequency                                           |
-| Border Color                      | Set the color of the outer border and table lines of the control.   |
-| Border Thickness                 | Set the thickness of the outer border and table lines of the control. |
-| Header                           | Set the background color, font type, font size, bold, italic, font color of the header. |
-| Body                             | Set the background color, font type, font size, bold, italic, font color of the body. |
-| Color                            | Set the color displayed on the control for each event type.         |
-| Button Style                     | Set the style of buttons used on the control. Click the button style setting button to set. |
-| Filter Panel                     | Set header background color, body background color                 |
-| Column Settings                  | Set the column names that need to be displayed on the control.     |
-| Others                           | Set the maximum number of alarms to display                         |
-| Permission                       | Set the permissions of the control, control display/hide or enable/disable |
+| Name                                                | Description                                                                                 |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Name                                                | The name of this control.                                                                   |
+| X                                                   | The distance from the left side of the control to the left side of the canvas, in px.       |
+| Y                                                   | The distance from the top of the control to the top of the canvas, in px.                   |
+| W                                                   | The width of the control, in px.                                                            |
+| H                                                   | The height of the control, in px.                                                           |
+| ![Image Description](../../images/transparency.png) | The opacity of the control                                                                  |
+| Refresh Frequency                                   | Set the refresh frequency                                                                   |
+| Border Color                                        | Set the color of the outer border and table lines of the control.                           |
+| Border Thickness                                    | Set the thickness of the outer border and table lines of the control.                       |
+| Header                                              | Set the background color, font type, font size, bold, italic, font color of the header.     |
+| Body                                                | Set the background color, font type, font size, bold, italic, font color of the body.       |
+| Color                                               | Set the color displayed on the control for each event type.                                 |
+| Button Style                                        | Set the style of buttons used on the control. Click the button style setting button to set. |
+| Filter Panel                                        | Set header background color, body background color                                          |
+| Column Settings                                     | Set the column names that need to be displayed on the control.                              |
+| Others                                              | Set the maximum number of alarms to display                                                 |
+| Permission                                          | Set the permissions of the control, control display/hide or enable/disable                  |
