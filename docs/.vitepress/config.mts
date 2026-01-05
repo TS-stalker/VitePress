@@ -44,13 +44,13 @@ export default defineConfig({
       lang: "zh-CN",
       title: "DipuOne产品手册",
       description: "A VitePress Site",
-      link: "/zh-CN/",
+      link: "/zh_CN/",
       themeConfig: {
         // logo: "/logo.png",
         // 导航栏
         nav: [
-          { text: "首页", link: "/zh-CN/" },
-          { text: "文档说明", link: "/zh-CN/DipuOneProductManual" },
+          { text: "首页", link: "/zh_CN/" },
+          { text: "文档说明", link: "/zh_CN/DipuOneProductManual" },
         ],
         // 侧边栏 - 使用简化路径
         sidebar: [
@@ -61,7 +61,7 @@ export default defineConfig({
             items: [
               {
                 text: "DipuOne产品手册",
-                link: "/zh-CN/DipuOneProductManual",
+                link: "/zh_CN/DipuOneProductManual",
               },
             ],
           },
@@ -72,15 +72,15 @@ export default defineConfig({
             items: [
               {
                 text: "版本更新说明",
-                link: "/zh-CN/ProductOverview/versionupdateinstructions",
+                link: "/zh_CN/ProductOverview/versionupdateinstructions",
               },
               {
                 text: "支持和帮助",
-                link: "/zh-CN/ProductOverview/supportandassistance ",
+                link: "/zh_CN/ProductOverview/supportandassistance ",
               },
               {
                 text: "系统要求",
-                link: "/zh-CN/ProductOverview/systemrequirements ",
+                link: "/zh_CN/ProductOverview/systemrequirements ",
               },
             ],
           },
@@ -91,11 +91,11 @@ export default defineConfig({
             items: [
               {
                 text: "windows环境",
-                link: "/zh-CN/InstallationUpgrade/windowsenv",
+                link: "/zh_CN/InstallationUpgrade/windowsenv",
               },
               {
                 text: "产品授权",
-                link: "/zh-CN/InstallationUpgrade/productlicense",
+                link: "/zh_CN/InstallationUpgrade/productlicense",
               },
             ],
           },
@@ -106,7 +106,7 @@ export default defineConfig({
             items: [
               {
                 text: "快速入门",
-                link: "/zh-CN/QuickStart/quickstart",
+                link: "/zh_CN/QuickStart/quickstart",
               },
             ],
           },
@@ -117,11 +117,11 @@ export default defineConfig({
             items: [
               {
                 text: "单机部署",
-                link: "/zh-CN/SystemDeploy/singledeploy",
+                link: "/zh_CN/SystemDeploy/singledeploy",
               },
               {
                 text: "冗余部署",
-                link: "/zh-CN/SystemDeploy/redundantdeploy",
+                link: "/zh_CN/SystemDeploy/redundantdeploy",
               },
             ],
           },
@@ -132,7 +132,7 @@ export default defineConfig({
             items: [
               {
                 text: "项目列表",
-                link: "/zh-CN/ManagementPlatform/projectlist",
+                link: "/zh_CN/ManagementPlatform/projectlist",
               },
               {
                 text: "数据看板",
@@ -140,7 +140,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据看板",
-                    link: "/zh-CN/ManagementPlatform/dashboard",
+                    link: "/zh_CN/ManagementPlatform/dashboard",
                   },
                 ],
               },
@@ -150,11 +150,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据集",
-                    link: "/zh-CN/ManagementPlatform/dataset",
+                    link: "/zh_CN/ManagementPlatform/dataset",
                   },
                   {
                     text: "报表设计",
-                    link: "/zh-CN/ManagementPlatform/report",
+                    link: "/zh_CN/ManagementPlatform/report",
                   },
                 ],
               },
@@ -164,7 +164,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "数据服务",
-                    link: "/zh-CN/ManagementPlatform/data-server", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/data-server", // 简化路径
                   },
                 ],
               },
@@ -174,15 +174,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "空间管理",
-                    link: "/zh-CN/ManagementPlatform/space",
+                    link: "/zh_CN/ManagementPlatform/space",
                   },
                   {
                     text: "设备管理",
-                    link: "/zh-CN/ManagementPlatform/structure", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/structure", // 简化路径
                   },
                   {
                     text: "连接管理",
-                    link: "/zh-CN/ManagementPlatform/datasource", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/datasource", // 简化路径
                   },
                 ],
               },
@@ -192,19 +192,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "国际化",
-                    link: "/zh-CN/ManagementPlatform/locale", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/locale", // 简化路径
                   },
                   {
                     text: "菜单管理",
-                    link: "/zh-CN/ManagementPlatform/menu", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/menu", // 简化路径
                   },
                   {
                     text: "权限管理",
-                    link: "/zh-CN/ManagementPlatform/permission", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/permission", // 简化路径
                   },
                   {
                     text: "任务管理",
-                    link: "/zh-CN/ManagementPlatform/task", // 简化路径
+                    link: "/zh_CN/ManagementPlatform/task", // 简化路径
                   },
                 ],
               },
@@ -221,7 +221,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "大纲说明",
-                    link: "/zh-CN/Controls/outline", // 简化路径
+                    link: "/zh_CN/Controls/outline", // 简化路径
                   },
                 ],
               },
@@ -235,7 +235,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "报警列表",
-                        link: "/zh-CN/Controls/alarmlist", // 简化路径
+                        link: "/zh_CN/Controls/alarmlist", // 简化路径
                       },
                     ],
                   },
@@ -245,23 +245,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "按钮",
-                        link: "/zh-CN/Controls/button", // 简化路径
+                        link: "/zh_CN/Controls/button", // 简化路径
                       },
                       {
                         text: "复选框",
-                        link: "/zh-CN/Controls/checkbox", // 简化路径
+                        link: "/zh_CN/Controls/checkbox", // 简化路径
                       },
                       {
                         text: "单选按钮",
-                        link: "/zh-CN/Controls/radiobutton", // 简化路径
+                        link: "/zh_CN/Controls/radiobutton", // 简化路径
                       },
                       {
                         text: "状态按钮",
-                        link: "/zh-CN/Controls/statusbutton", // 简化路径
+                        link: "/zh_CN/Controls/statusbutton", // 简化路径
                       },
                       {
                         text: "导航菜单",
-                        link: "/zh-CN/Controls/navigationmenu", // 简化路径
+                        link: "/zh_CN/Controls/navigationmenu", // 简化路径
                       },
                     ],
                   },
@@ -271,11 +271,11 @@ export default defineConfig({
                     items: [
                       {
                         text: "变量列表",
-                        link: "/zh-CN/Controls/variablelist", // 简化路径
+                        link: "/zh_CN/Controls/variablelist", // 简化路径
                       },
                       {
                         text: "历史检索",
-                        link: "/zh-CN/Controls/historicalretrieval", // 简化路径
+                        link: "/zh_CN/Controls/historicalretrieval", // 简化路径
                       },
                     ],
                   },
@@ -285,23 +285,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "文本标签",
-                        link: "/zh-CN/Controls/textlabel", // 简化路径
+                        link: "/zh_CN/Controls/textlabel", // 简化路径
                       },
                       {
                         text: "值显示",
-                        link: "/zh-CN/Controls/valuedisplay", // 简化路径
+                        link: "/zh_CN/Controls/valuedisplay", // 简化路径
                       },
                       {
                         text: "画面容器",
-                        link: "/zh-CN/Controls/pagecontainer", // 简化路径
+                        link: "/zh_CN/Controls/pagecontainer", // 简化路径
                       },
                       {
                         text: "模态框",
-                        link: "/zh-CN/Controls/modal", // 简化路径
+                        link: "/zh_CN/Controls/modal", // 简化路径
                       },
                       {
                         text: "内嵌网页",
-                        link: "/zh-CN/Controls/iframe", // 简化路径
+                        link: "/zh_CN/Controls/iframe", // 简化路径
                       },
                     ],
                   },
@@ -311,19 +311,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "绘图介绍",
-                        link: "/zh-CN/Controls/drawingintroduction", // 简化路径
+                        link: "/zh_CN/Controls/drawingintroduction", // 简化路径
                       },
                       {
                         text: "折线",
-                        link: "/zh-CN/Controls/zigzagline", // 简化路径
+                        link: "/zh_CN/Controls/zigzagline", // 简化路径
                       },
                       {
                         text: "多边形",
-                        link: "/zh-CN/Controls/polygon", // 简化路径
+                        link: "/zh_CN/Controls/polygon", // 简化路径
                       },
                       {
                         text: "管道",
-                        link: "/zh-CN/Controls/pipeline", // 简化路径
+                        link: "/zh_CN/Controls/pipeline", // 简化路径
                       },
                     ],
                   },
@@ -333,7 +333,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "事件列表",
-                        link: "/zh-CN/Controls/eventlist", // 简化路径
+                        link: "/zh_CN/Controls/eventlist", // 简化路径
                       },
                     ],
                   },
@@ -343,23 +343,23 @@ export default defineConfig({
                     items: [
                       {
                         text: "下拉框",
-                        link: "/zh-CN/Controls/dropdownbox", // 简化路径
+                        link: "/zh_CN/Controls/dropdownbox", // 简化路径
                       },
                       {
                         text: "文本输入框",
-                        link: "/zh-CN/Controls/textinputbox", // 简化路径
+                        link: "/zh_CN/Controls/textinputbox", // 简化路径
                       },
                       {
                         text: "滑动条",
-                        link: "/zh-CN/Controls/slider", // 简化路径
+                        link: "/zh_CN/Controls/slider", // 简化路径
                       },
                       {
                         text: "日历",
-                        link: "/zh-CN/Controls/calendar", // 简化路径
+                        link: "/zh_CN/Controls/calendar", // 简化路径
                       },
                       {
                         text: "数字输入框",
-                        link: "/zh-CN/Controls/digitalinputbox", // 简化路径
+                        link: "/zh_CN/Controls/digitalinputbox", // 简化路径
                       },
                     ],
                   },
@@ -369,19 +369,19 @@ export default defineConfig({
                     items: [
                       {
                         text: "实时趋势",
-                        link: "/zh-CN/Controls/realtimetrend", // 简化路径
+                        link: "/zh_CN/Controls/realtimetrend", // 简化路径
                       },
                       {
                         text: "历史趋势",
-                        link: "/zh-CN/Controls/historicaltrend", // 简化路径
+                        link: "/zh_CN/Controls/historicaltrend", // 简化路径
                       },
                       {
                         text: "自定义曲线",
-                        link: "/zh-CN/Controls/customcurve", // 简化路径
+                        link: "/zh_CN/Controls/customcurve", // 简化路径
                       },
                       {
                         text: "仪表盘",
-                        link: "/zh-CN/Controls/dashboard", // 简化路径
+                        link: "/zh_CN/Controls/dashboard", // 简化路径
                       },
                     ],
                   },
@@ -391,31 +391,31 @@ export default defineConfig({
                     items: [
                       {
                         text: "形状介绍",
-                        link: "/zh-CN/Controls/shapeintroduction", // 简化路径
+                        link: "/zh_CN/Controls/shapeintroduction", // 简化路径
                       },
                       {
                         text: "椭圆",
-                        link: "/zh-CN/Controls/ellipse", // 简化路径
+                        link: "/zh_CN/Controls/ellipse", // 简化路径
                       },
                       {
                         text: "矩形",
-                        link: "/zh-CN/Controls/rectangle", // 简化路径
+                        link: "/zh_CN/Controls/rectangle", // 简化路径
                       },
                       {
                         text: "圆角矩形",
-                        link: "/zh-CN/Controls/roundrectangle", // 简化路径
+                        link: "/zh_CN/Controls/roundrectangle", // 简化路径
                       },
                       {
                         text: "直线",
-                        link: "/zh-CN/Controls/straightline", // 简化路径
+                        link: "/zh_CN/Controls/straightline", // 简化路径
                       },
                       {
                         text: "水平线",
-                        link: "/zh-CN/Controls/horizontalline", // 简化路径
+                        link: "/zh_CN/Controls/horizontalline", // 简化路径
                       },
                       {
                         text: "垂直线",
-                        link: "/zh-CN/Controls/verticalline", // 简化路径
+                        link: "/zh_CN/Controls/verticalline", // 简化路径
                       },
                     ],
                   },
@@ -425,7 +425,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "历史报表",
-                        link: "/zh-CN/Controls/historicalreport", // 简化路径
+                        link: "/zh_CN/Controls/historicalreport", // 简化路径
                       },
                     ],
                   },
@@ -437,7 +437,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "画面编辑器",
-                    link: "/zh-CN/Controls/screeneditor", // 简化路径
+                    link: "/zh_CN/Controls/screeneditor", // 简化路径
                   },
                 ],
               },
@@ -447,7 +447,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "图库管理",
-                    link: "/zh-CN/Controls/imagelibrary", // 简化路径
+                    link: "/zh_CN/Controls/imagelibrary", // 简化路径
                   },
                 ],
               },
@@ -457,11 +457,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "图符介绍",
-                    link: "/zh-CN/Controls/symbolpanel", // 简化路径
+                    link: "/zh_CN/Controls/symbolpanel", // 简化路径
                   },
                   {
                     text: "图符库",
-                    link: "/zh-CN/Controls/symbollibrary",
+                    link: "/zh_CN/Controls/symbollibrary",
                   },
                 ],
               },
@@ -471,15 +471,15 @@ export default defineConfig({
                 items: [
                   {
                     text: "动作介绍",
-                    link: "/zh-CN/Controls/action", // 简化路径
+                    link: "/zh_CN/Controls/action", // 简化路径
                   },
                   {
                     text: "导航",
-                    link: "/zh-CN/Controls/navigation", // 简化路径
+                    link: "/zh_CN/Controls/navigation", // 简化路径
                   },
                   {
                     text: "变量写值",
-                    link: "/zh-CN/Controls/variablewrite", // 简化路径
+                    link: "/zh_CN/Controls/variablewrite", // 简化路径
                   },
                 ],
               },
@@ -489,7 +489,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "动画介绍",
-                    link: "/zh-CN/Controls/animation", // 简化路径
+                    link: "/zh_CN/Controls/animation", // 简化路径
                   },
                 ],
               },
@@ -499,19 +499,19 @@ export default defineConfig({
                 items: [
                   {
                     text: "属性绑定介绍",
-                    link: "/zh-CN/Controls/attributebindintroduction", // 简化路径
+                    link: "/zh_CN/Controls/attributebindintroduction", // 简化路径
                   },
                   {
                     text: "变量",
-                    link: "/zh-CN/Controls/variable",
+                    link: "/zh_CN/Controls/variable",
                   },
                   {
                     text: "属性",
-                    link: "/zh-CN/Controls/attribute",
+                    link: "/zh_CN/Controls/attribute",
                   },
                   {
                     text: "脚本",
-                    link: "/zh-CN/Controls/script",
+                    link: "/zh_CN/Controls/script",
                   },
                 ],
               },
@@ -521,7 +521,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "项目属性",
-                    link: "/zh-CN/Controls/projectattributes", // 简化路径
+                    link: "/zh_CN/Controls/projectattributes", // 简化路径
                   },
                 ],
               },
@@ -534,19 +534,19 @@ export default defineConfig({
             items: [
               {
                 text: "案例一:如何组态弹窗",
-                link: "/zh-CN/Example/case1",
+                link: "/zh_CN/Example/case1",
               },
               {
                 text: "案例二:如何组态动画",
-                link: "/zh-CN/Example/case2",
+                link: "/zh_CN/Example/case2",
               },
               {
                 text: "案例三:如何建立变量",
-                link: "/zh-CN/Example/case3",
+                link: "/zh_CN/Example/case3",
               },
               {
                 text: "案例四:如何定时导出报表",
-                link: "/zh-CN/Example/case4",
+                link: "/zh_CN/Example/case4",
               },
             ],
           },
