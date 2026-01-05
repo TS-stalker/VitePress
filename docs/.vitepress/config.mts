@@ -56,12 +56,72 @@ export default defineConfig({
         sidebar: [
           // 产品介绍
           {
-            text: "产品介绍",
+            text: "产品手册",
             collapsed: false,
             items: [
               {
-                text: "产品概述",
+                text: "DipuOne产品手册",
                 link: "/zh-CN/DipuOneProductManual",
+              },
+            ],
+          },
+          // 产品概述
+          {
+            text: "产品概述",
+            collapsed: true,
+            items: [
+              {
+                text: "版本更新说明",
+                link: "/zh-CN/ProductOverview/versionupdateinstructions",
+              },
+              {
+                text: "支持和帮助",
+                link: "/zh-CN/ProductOverview/supportandassistance ",
+              },
+              {
+                text: "系统要求",
+                link: "/zh-CN/ProductOverview/systemrequirements ",
+              },
+            ],
+          },
+          // 安装和升级
+          {
+            text: "安装和升级",
+            collapsed: true,
+            items: [
+              {
+                text: "windows环境",
+                link: "/zh-CN/InstallationUpgrade/windowsenv",
+              },
+              {
+                text: "产品授权",
+                link: "/zh-CN/InstallationUpgrade/productlicense",
+              },
+            ],
+          },
+          // 快速入门
+          {
+            text: "快速入门",
+            collapsed: true,
+            items: [
+              {
+                text: "快速入门",
+                link: "/zh-CN/QuickStart/quickstart",
+              },
+            ],
+          },
+          // 系统部署
+          {
+            text: "系统部署",
+            collapsed: true,
+            items: [
+              {
+                text: "单机部署",
+                link: "/zh-CN/SystemDeploy/singledeploy",
+              },
+              {
+                text: "冗余部署",
+                link: "/zh-CN/SystemDeploy/redundantdeploy",
               },
             ],
           },
@@ -155,6 +215,16 @@ export default defineConfig({
             text: "画面组态",
             collapsed: true,
             items: [
+              {
+                text: "大纲",
+                collapsed: true,
+                items: [
+                  {
+                    text: "大纲说明",
+                    link: "/zh-CN/Controls/outline", // 简化路径
+                  },
+                ],
+              },
               {
                 text: "控件",
                 collapsed: true,
@@ -423,6 +493,61 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "属性绑定",
+                collapsed: true,
+                items: [
+                  {
+                    text: "属性绑定介绍",
+                    link: "/zh-CN/Controls/attributebindintroduction", // 简化路径
+                  },
+                  {
+                    text: "变量",
+                    link: "/zh-CN/Controls/variable",
+                  },
+                  {
+                    text: "属性",
+                    link: "/zh-CN/Controls/attribute",
+                  },
+                  {
+                    text: "脚本",
+                    link: "/zh-CN/Controls/script",
+                  },
+                ],
+              },
+              {
+                text: "项目属性",
+                collapsed: true,
+                items: [
+                  {
+                    text: "项目属性",
+                    link: "/zh-CN/Controls/projectattributes", // 简化路径
+                  },
+                ],
+              },
+            ],
+          },
+          // 组态案例
+          {
+            text: "组态案例",
+            collapsed: true,
+            items: [
+              {
+                text: "案例一:如何组态弹窗",
+                link: "/zh-CN/Example/case1",
+              },
+              {
+                text: "案例二:如何组态动画",
+                link: "/zh-CN/Example/case2",
+              },
+              {
+                text: "案例三:如何建立变量",
+                link: "/zh-CN/Example/case3",
+              },
+              {
+                text: "案例四:如何定时导出报表",
+                link: "/zh-CN/Example/case4",
+              },
             ],
           },
         ],
@@ -442,11 +567,11 @@ export default defineConfig({
         sidebar: [
           // Product Introduction
           {
-            text: "Product Introduction",
+            text: "Product Manual",
             collapsed: false,
             items: [
               {
-                text: "Product Overview",
+                text: "DipuOne Product Manual",
                 link: "/en/DipuOneProductManual",
               },
             ],
