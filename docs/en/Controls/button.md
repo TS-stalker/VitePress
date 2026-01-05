@@ -2,7 +2,7 @@
 
 Button controls are used to trigger specific operations or display status information. Through interactive methods such as clicking and hovering, they enable command transmission between users and the system, supporting rich visual effects and status feedback.
 
-![Image Description](../../images/Controls/按钮/1.png)
+![Image Description](../../images/Controls/button/1.png)
 
 ## 2. Usage Scenarios
 
@@ -37,7 +37,7 @@ Button controls are used in the following scenarios:
 
 This example is a device control panel. Set "Start" and "Stop" buttons. Clicking the "Start" button issues a device start command, while the button state changes to a pressed effect, providing clear interactive feedback. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/按钮/2.gif)
+![Image Description](../../images/Controls/button/2.gif)
 
 Figure 1-1
 
@@ -53,7 +53,7 @@ Figure 1-1
 
 This example demonstrates the function of screen jumping by clicking a button, to meet users' needs to view data by clicking buttons. As shown in Figure 1-2.
 
-![Image Description](../../images/Controls/按钮/3.gif)
+![Image Description](../../images/Controls/button/3.gif)
 
 Figure 1-2
 
@@ -65,17 +65,17 @@ Figure 1-2
 
 ## 4. Property Details
 
-| Name                                                | Description                                                                                                                                                                                                                                                 |
-| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                                                | The name of this control.                                                                                                                                                                                                                                   |
-| X                                                   | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                                                                       |
-| Y                                                   | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                                                                   |
-| W                                                   | The width of the control, in px.                                                                                                                                                                                                                            |
-| H                                                   | The height of the control, in px.                                                                                                                                                                                                                           |
-| ![Image Description](../../images/roundCorners.png) | The corner radius of the button's four corners.                                                                                                                                                                                                             |
-| Fill Text                                           | The content displayed by the control.<br />![Image Description](../../images/Controls/按钮/4.png)                                                                                                                                                           |
-| Fill Background Image                               | The background image of the control. Only JPG, GIF, PNG, SVG, JPEG formats are supported.                                                                                                                                                                   |
-| Border Thickness                                    | The thickness of the border line.                                                                                                                                                                                                                           |
-| Color                                               | Set the color effects of the control under different operation states. States include: Default, Hover, Pressed.<br />You can set background color, border color, and font color for each state.<br />![Image Description](../../images/Controls/按钮/5.png) |
-| Font                                                | Set the font of the text content. Includes font type, font size, bold, italic, horizontal alignment, vertical alignment.                                                                                                                                    |
-| Permission                                          | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                                                                  |
+| Name                                                | Description                                                                                                                                                                                                                                                   |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                                                | The name of this control.                                                                                                                                                                                                                                     |
+| X                                                   | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                                                                         |
+| Y                                                   | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                                                                     |
+| W                                                   | The width of the control, in px.                                                                                                                                                                                                                              |
+| H                                                   | The height of the control, in px.                                                                                                                                                                                                                             |
+| ![Image Description](../../images/roundCorners.png) | The corner radius of the button's four corners.                                                                                                                                                                                                               |
+| Fill Text                                           | The content displayed by the control.<br />![Image Description](../../images/Controls/button/4.png)                                                                                                                                                           |
+| Fill Background Image                               | The background image of the control. Only JPG, GIF, PNG, SVG, JPEG formats are supported.                                                                                                                                                                     |
+| Border Thickness                                    | The thickness of the border line.                                                                                                                                                                                                                             |
+| Color                                               | Set the color effects of the control under different operation states. States include: Default, Hover, Pressed.<br />You can set background color, border color, and font color for each state.<br />![Image Description](../../images/Controls/button/5.png) |
+| Font                                                | Set the font of the text content. Includes font type, font size, bold, italic, horizontal alignment, vertical alignment.                                                                                                                                      |
+| Permission                                          | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                                                                    |

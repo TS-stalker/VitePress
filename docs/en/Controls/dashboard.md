@@ -2,7 +2,7 @@
 
 Dashboard controls visually display numerical data through pointers and dials, supporting multi-interval color division to intuitively reflect the relative position and status level of data. They are suitable for monitoring and status display of key indicators.
 
-![Image Description](../../images/Controls/仪表盘/1.png)
+![Image Description](../../images/Controls/dashboard/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Dashboard controls are used in the following scenarios:
 
 This example is a device health assessment dashboard. Set five health levels: 0-20 blue (Excellent), 20-40 green (Good), 40-60 yellow (Average), 60-80 orange (Poor), 80-100 red (Dangerous). The device health status is intuitively displayed through the pointer position. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/仪表盘/2.gif)
+![Image Description](../../images/Controls/dashboard/2.gif)
 
 Figure 1-1
 
@@ -59,5 +59,5 @@ Figure 1-1
 | Measurement Range                                    | The measurement range of the dashboard. Default 0~100.                                                                                                                                                                                                                                                                                                                                                                                            |
 | Scale                                                | Main Scale Value: The number of main scales.<br />Main Scale Color: The color of main scales.<br />Sub Scale Value: The number of sub scale lines between two adjacent main scales.<br />Sub Scale Color: The color of sub scales.<br />Decimal Places: The number of decimal places displayed on scale values and pointer values.                                                                                                                |
 | Dial                                                 | Color: The background color of the dial scale<br />Width: The width of the scale<br />Show Progress: Whether to display the value as a progress bar<br />Progress Color: The color of the progress bar<br />Font: Set the font, font size, bold, italic, font color of scale values<br />Dial Range Color: The color corresponding to different value ranges on the dial                                                                          |
-| Range Color                                          | Set different colors for different value ranges to distinguish data<br />![Image Description](../../images/Controls/仪表盘/3.png)                                                                                                                                                                                                                                                                                                                 |
+| Range Color                                          | Set different colors for different value ranges to distinguish data<br />![Image Description](../../images/Controls/dashboard/3.png)                                                                                                                                                                                                                                                                                                              |
 | Permission                                           | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                                                                                                                                                                                                                                                        |

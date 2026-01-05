@@ -2,7 +2,7 @@
 
 Polygon shape controls are used to create and edit multi-sided closed graphics on the canvas, supporting flexible drawing from triangles to complex polygons, achieving precise graphic design and editing through vertex control.
 
-![Image Description](../../images/Controls/多边形/1.png)
+![Image Description](../../images/Controls/polygon/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Polygon controls are used in the following scenarios:
 
 This example is creating a polygon and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/多边形/2.gif)
+![Image Description](../../images/Controls/polygon/2.gif)
 
 Figure 1-1
 

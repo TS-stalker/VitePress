@@ -2,7 +2,7 @@
 
 折线形状控件用于在画布上创建和编辑由多个线段连接而成的折线图形，支持自由绘制和精确编辑，适用于创建复杂路径、连接线和多边形轮廓。
 
-![图片描述](../images/Controls/折线/1.png)
+![图片描述](../images/Controls/zigzagline/1.png)
 
 ## 二、使用场景
 
@@ -31,7 +31,7 @@
 
 该示例是创建折线，设置基本属性，如图1-1所示。
 
-![图片描述](../images/Controls/折线/2.gif)
+![图片描述](../images/Controls/zigzagline/2.gif)
 
 图 1-1
 

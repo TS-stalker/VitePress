@@ -2,7 +2,7 @@
 
 Horizontal line shape controls are used to create and edit horizontal straight line graphic elements on the canvas. They provide convenient tools for design scenarios that require strict horizontal alignment, ensuring horizontal lines and precise positioning.
 
-![Image Description](../../images/Controls/水平线/1.png)
+![Image Description](../../images/Controls/horizontalline/1.png)
 
 ## 2. Usage Scenarios
 
@@ -29,7 +29,7 @@ Horizontal line controls are used in the following scenarios:
 
 This example is creating a horizontal line and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/水平线/2.gif)
+![Image Description](../../images/Controls/horizontalline/2.gif)
 
 Figure 1-1
 

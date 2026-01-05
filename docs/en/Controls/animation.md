@@ -18,11 +18,11 @@ DipuOne provides multiple animation types to adapt to different interaction need
 
 Examples:
 
-![Image Description](../../images/Controls/动画/1.gif)
+![Image Description](../../images/Controls/animation/1.gif)
 
 Figure 1-1
 
-![Image Description](../../images/Controls/动画/2.gif)
+![Image Description](../../images/Controls/animation/2.gif)
 
 Figure 1-2
 

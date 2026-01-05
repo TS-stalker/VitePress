@@ -2,7 +2,7 @@
 
 Vertical line shape controls are used to create and edit vertical straight line graphic elements on the canvas. They provide precise tools for design scenarios that require strict vertical alignment and separation, ensuring vertical lines and precise layout.
 
-![Image Description](../../images/Controls/垂直线/1.png)
+![Image Description](../../images/Controls/verticalline/1.png)
 
 ## 2. Usage Scenarios
 
@@ -29,7 +29,7 @@ Vertical line controls are used in the following scenarios:
 
 This example is creating a vertical line and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/垂直线/2.gif)
+![Image Description](../../images/Controls/verticalline/2.gif)
 
 Figure 1-1
 

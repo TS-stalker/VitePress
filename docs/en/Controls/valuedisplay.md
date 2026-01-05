@@ -2,7 +2,7 @@
 
 Value display controls are used to display text content. They support both static text display and dynamic data sources through property binding, enabling real-time content updates and dynamic display.
 
-![Image Description](../../images/Controls/值显示/1.png)
+![Image Description](../../images/Controls/valuedisplay/1.png)
 
 ## 2. Usage Scenarios
 
@@ -31,7 +31,7 @@ Value display controls are used in the following scenarios:
 
 This example simulates a temperature monitoring system. Bind the value display control to a temperature sensor variable, set the unit to "℃", format to "0.0", and observe temperature changes over a period of time. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/值显示/2.gif)
+![Image Description](../../images/Controls/valuedisplay/2.gif)
 
 Figure 1-1
 
@@ -54,7 +54,7 @@ Figure 1-1
 | Opacity          | The opacity of the control                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Data             | The data received by the control.<br />Text<br />The content to be displayed. Can be manually entered or bound by clicking the bind button.<br />Unit<br />Set the unit of the displayed data. Can be manually entered or bound by clicking the bind button.<br />Format<br />The expected display content format. Can be manually entered or click the settings button, double-click to select the required format.<br />Text Overflow<br />Set how to handle text overflow: Hide, Wrap, Ellipsis (3 options available) |
 | Display          | Trend Popup<br />On or Off<br />Time Range<br />Set the time range of the control, including 5 minutes, 10 minutes, 30 minutes, 1 hour, 1 day, 1 week, 1 month, and custom<br />Sampling Method<br />Set the sampling method for the control, including original value, average value, maximum value, minimum value, start value, end value, count, increment                                                                                                                                                            |
-| Fill             | The fill color of the control.<br />![Image Description](../../images/Controls/值显示/3.png)                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Fill             | The fill color of the control.<br />![Image Description](../../images/Controls/valuedisplay/3.png)                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Border Color     | The border color of the digital input box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Border Thickness | The border thickness of the digital input box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Font             | Set the font of the control content. Includes font type, font size, font color, bold, italic, underline, horizontal alignment, vertical alignment.                                                                                                                                                                                                                                                                                                                                                                       |

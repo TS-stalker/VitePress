@@ -2,7 +2,7 @@
 
 Text label controls are used to display text content. They support both static text display and dynamic data sources through property binding, enabling real-time content updates and dynamic display.
 
-![Image Description](../../images/Controls/文本标签/1.png)
+![Image Description](../../images/Controls/textlabel/1.png)
 
 ## 2. Usage Scenarios
 
@@ -34,7 +34,7 @@ Text label controls are used in the following scenarios:
 
 This example simulates the panel title of a liquid cooling interface. Use a text label to display "Liquid Cooling Control System" as the page title, set appropriate font size and color to form a clear visual hierarchy, and clicking the text can pop up a dialog box. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/文本标签/2.gif)
+![Image Description](../../images/Controls/textlabel/2.gif)
 
 Figure 1-1
 
@@ -51,7 +51,7 @@ Figure 1-1
 
 This example mainly simulates binding variables to text display values for real-time data display. As shown in Figure 1-2.
 
-![Image Description](../../images/Controls/文本标签/3.gif)
+![Image Description](../../images/Controls/textlabel/3.gif)
 
 Figure 1-2
 
@@ -73,8 +73,8 @@ Figure 1-2
 | Opacity          | The opacity of the control                                                                                                                      |
 | Text             | The content displayed by the control.                                                                                                           |
 | Overflow         | How to handle text overflow: Hide, Wrap, Ellipsis (3 options available)                                                                         |
-| Fill             | The background color of the control.<br />![Image Description](../../images/Controls/文本标签/4.png)                                            |
-| Border           | The border color of the control.<br />![Image Description](../../images/Controls/文本标签/5.png)                                                |
+| Fill             | The background color of the control.<br />![Image Description](../../images/Controls/textlabel/4.png)                                           |
+| Border           | The border color of the control.<br />![Image Description](../../images/Controls/textlabel/5.png)                                               |
 | Border Thickness | The border thickness of the control.                                                                                                            |
 | Font             | Set the font of the text content. Includes font type, font size, font color, bold, italic, underline, horizontal alignment, vertical alignment. |
 | Permission       | Set the permissions of the control, control display/hide or enable/disable                                                                      |

@@ -2,7 +2,7 @@
 
 水平直线形状控件用于在画布上创建和编辑水平方向的直线图形元素，专为需要严格水平对齐的设计场景提供便捷工具，确保线条的水平和精准定位。
 
-![图片描述](../images/Controls/水平线/1.png)
+![图片描述](../images/Controls/horizontalline/1.png)
 
 ## 二、使用场景
 
@@ -29,7 +29,7 @@
 
 该示例是创建水平线，设置基本属性，如图1-1所示。
 
-![图片描述](../images/Controls/水平线/2.gif)
+![图片描述](../images/Controls/horizontalline/2.gif)
 
 图 1-1
 

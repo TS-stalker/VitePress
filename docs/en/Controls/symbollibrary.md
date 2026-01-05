@@ -13,7 +13,7 @@ The Symbol Library is the centralized management center for all symbols in the p
   - After successful creation, the library name will **automatically be in editable state**, and you can modify it directly at this time.
   - If you need to modify it again, **double-click** the symbol library name to re-enter edit mode.
 
-![Image Description](../../images/Controls/图符/1.png)
+![Image Description](../../images/Controls/symbollibrary/1.png)
 
 Figure 1-1
 
@@ -22,7 +22,7 @@ Figure 1-1
 - **Operation Path**: Take a created symbol (after **copying** from other locations) and perform a **paste** operation on the target symbol library.
 - **Execution Result**: The symbol will be added to the symbol library.
 
-![Image Description](../../images/Controls/图符/2.png)
+![Image Description](../../images/Controls/symbollibrary/2.png)
 
 Figure 1-2
 
@@ -32,7 +32,7 @@ Figure 1-2
 - **Execution Result**: After selecting the delete operation, the system will **delete the current symbol library and all symbol resources it contains**.
 - **Safety Tip**: The system will pop up a confirmation dialog box before deletion to prevent accidental operations.
 
-![Image Description](../../images/Controls/图符/3.png)
+![Image Description](../../images/Controls/symbollibrary/3.png)
 
 Figure 1-3
 
@@ -44,7 +44,7 @@ Figure 1-3
 - **Execution Process**: Enter symbol name → Confirm → Creation successful.
 - **Follow-up Design**: After successful creation, you can drag basic controls from the control panel or drag image resources from the image library to the symbol's editing area for design.
 
-![Image Description](../../images/Controls/图符/4.png)
+![Image Description](../../images/Controls/symbollibrary/4.png)
 
 Figure 1-4
 
@@ -63,6 +63,6 @@ Figure 1-4
 - **Operation Path**: **Right-click** the symbol you want to delete and select "Delete" in the menu.
 - **Execution Result**: Remove the symbol from the current symbol library.
 
-![Image Description](../../images/Controls/图符/5.png)
+![Image Description](../../images/Controls/symbollibrary/5.png)
 
 Figure 1-5

@@ -2,7 +2,7 @@
 
 Historical retrieval controls are used to query and display historical data records of variables, supporting filtering by time period and multiple collection methods, providing professional query tools for data tracing, analysis, and report generation.
 
-![Image Description](../../images/Controls/历史检索/1.png)
+![Image Description](../../images/Controls/historicalretrieval/1.png)
 
 ## 2. Usage Scenarios
 
@@ -38,7 +38,7 @@ Historical retrieval controls are used in the following scenarios:
 
 This example is energy consumption data analysis. Bind power consumption variables, query daily average power consumption trends for energy efficiency evaluation. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/历史检索/2.gif)
+![Image Description](../../images/Controls/historicalretrieval/2.gif)
 
 Figure 1-1
 
@@ -51,21 +51,21 @@ Figure 1-1
 
 ## 4. Property Details
 
-| Name                                                 | Description                                                                                                                                                                                      |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Name                                                 | The name of this control.                                                                                                                                                                        |
-| X                                                    | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                            |
-| Y                                                    | The distance from the top of the control to the top of the canvas, in px.                                                                                                                        |
-| W                                                    | The width of the control, in px.                                                                                                                                                                 |
-| H                                                    | The height of the control, in px.                                                                                                                                                                |
-| ![Image Description](../../images/rotationAngle.png) | The rotation angle of the control                                                                                                                                                                |
-| ![Image Description](../../images/transparency.png)  | The opacity of the control                                                                                                                                                                       |
-| Time Range                                           | Query according to the set time period.<br />![Image Description](../../images/Controls/历史检索/3.png)                                                                                          |
-| Collection Method                                    | Set collection method<br />![Image Description](../../images/Controls/历史检索/4.png)                                                                                                            |
-| Data                                                 | Click the bind button in Data to open the dataset binding variables. Only variables with historical storage enabled can be bound<br />![Image Description](../../images/Controls/历史检索/5.png) |
-| Display                                              | Set the on/off of Select Variable button, Query button, Export button, Print button                                                                                                              |
-| Border                                               | Set border color and border thickness                                                                                                                                                            |
-| Header                                               | Set the background color, font type, font size, bold, italic, font color of the header.                                                                                                          |
-| Body                                                 | Set the background color, font type, font size, bold, italic, font color of the body.                                                                                                            |
-| Others                                               | Set the maximum number of alarms to display                                                                                                                                                      |
-| Permission                                           | Set the permissions of the control, control display/hide or enable/disable                                                                                                                       |
+| Name                                                 | Description                                                                                                                                                                                                 |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                                                 | The name of this control.                                                                                                                                                                                   |
+| X                                                    | The distance from the left side of the control to the left side of the canvas, in px.                                                                                                                       |
+| Y                                                    | The distance from the top of the control to the top of the canvas, in px.                                                                                                                                   |
+| W                                                    | The width of the control, in px.                                                                                                                                                                            |
+| H                                                    | The height of the control, in px.                                                                                                                                                                           |
+| ![Image Description](../../images/rotationAngle.png) | The rotation angle of the control                                                                                                                                                                           |
+| ![Image Description](../../images/transparency.png)  | The opacity of the control                                                                                                                                                                                  |
+| Time Range                                           | Query according to the set time period.<br />![Image Description](../../images/Controls/historicalretrieval/3.png)                                                                                          |
+| Collection Method                                    | Set collection method<br />![Image Description](../../images/Controls/historicalretrieval/4.png)                                                                                                            |
+| Data                                                 | Click the bind button in Data to open the dataset binding variables. Only variables with historical storage enabled can be bound<br />![Image Description](../../images/Controls/historicalretrieval/5.png) |
+| Display                                              | Set the on/off of Select Variable button, Query button, Export button, Print button                                                                                                                         |
+| Border                                               | Set border color and border thickness                                                                                                                                                                       |
+| Header                                               | Set the background color, font type, font size, bold, italic, font color of the header.                                                                                                                     |
+| Body                                                 | Set the background color, font type, font size, bold, italic, font color of the body.                                                                                                                       |
+| Others                                               | Set the maximum number of alarms to display                                                                                                                                                                 |
+| Permission                                           | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                  |

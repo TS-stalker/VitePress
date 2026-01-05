@@ -16,7 +16,7 @@
 
 **示例：**
 
-![图片描述](../images/Controls/动作/1.gif)
+![图片描述](../images/Controls/action/1.gif)
 
 图 1-1
 
@@ -34,7 +34,7 @@
 
 **示例：**
 
-![图片描述](../images/Controls/动作/2.png)
+![图片描述](../images/Controls/action/2.png)
 
 图 1-2
 

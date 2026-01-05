@@ -2,7 +2,7 @@
 
 Text input boxes are used to receive any single-line text content input by users and support writing input values to data models or triggering related business operations.
 
-![Image Description](../../images/Controls/文本输入框/1.png)
+![Image Description](../../images/Controls/textinputbox/1.png)
 
 ## 2. Usage Scenarios
 
@@ -27,7 +27,7 @@ Data Entry Scenario:
 
 This example simulates information filling during user registration. When users need to input information such as username and email, text input boxes can be used to receive user input and save the input values to the user information database, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/文本输入框/2.gif)
+![Image Description](../../images/Controls/textinputbox/2.gif)
 
 Figure 1-1
 

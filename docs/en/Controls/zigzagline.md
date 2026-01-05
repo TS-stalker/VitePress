@@ -2,7 +2,7 @@
 
 Zigzag line shape controls are used to create and edit zigzag graphics composed of multiple connected line segments on the canvas, supporting free drawing and precise editing, suitable for creating complex paths, connection lines, and polygon outlines.
 
-![Image Description](../../images/Controls/折线/1.png)
+![Image Description](../../images/Controls/zigzagline/1.png)
 
 ## 2. Usage Scenarios
 
@@ -31,7 +31,7 @@ Zigzag line controls are used in the following scenarios:
 
 This example is creating a zigzag line and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/折线/2.gif)
+![Image Description](../../images/Controls/zigzagline/2.gif)
 
 Figure 1-1
 

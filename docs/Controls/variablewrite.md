@@ -29,6 +29,6 @@
 
 **示例：**
 
-![图片描述](../images/Controls/动作/3.gif)
+![图片描述](../images/Controls/action/3.gif)
 
 图 1-1

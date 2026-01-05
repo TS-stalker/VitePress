@@ -2,7 +2,7 @@
 
 Event list controls are used to dynamically display event information that occurs in the system, supporting real-time refresh, data export, column customization, and data filtering. They clearly present event details in table form, making it convenient for users to keep track of system dynamics in a timely manner.
 
-![Image Description](../../images/Controls/事件列表/1.png)
+![Image Description](../../images/Controls/eventlist/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Real-time event controls are used in the following scenarios:
 
 This example is production line operation event monitoring. Set the refresh frequency to 2 seconds. Display columns include "Date", "Operator", "Machine Name", "Machine IP", "Event Type", "Result". Different colors are used to distinguish normal operations and abnormal events, monitoring production line operations in real-time. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/事件列表/2.gif)
+![Image Description](../../images/Controls/eventlist/2.gif)
 
 Figure 1-1
 

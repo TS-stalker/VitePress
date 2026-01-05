@@ -2,7 +2,7 @@
 
 Radio button controls are used to select a unique item from multiple mutually exclusive options. When a user selects an option, other options are automatically deselected, ensuring that only one option is always in an active state.
 
-![Image Description](../../images/Controls/单选按钮/1.png)
+![Image Description](../../images/Controls/radiobutton/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Radio button controls are used in the following scenarios:
 
 This example is user gender selection. Set option text to ["Male", "Female", "Private"], corresponding option values to ["1", "2", "3"]. Users can only select one item and must select one item. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/单选按钮/2.gif)
+![Image Description](../../images/Controls/radiobutton/2.gif)
 
 Figure 1-1
 
@@ -53,12 +53,12 @@ Figure 1-1
 | H              | The height of the control, in px.                                                                                                                                                                                                                                   |
 | Angle          | The rotation angle of the control                                                                                                                                                                                                                                   |
 | Opacity        | The opacity of the control                                                                                                                                                                                                                                          |
-| Option Text    | The name of the radio button option. The "name" here corresponds to "Selected Text".<br />![Image Description](../../images/Controls/单选按钮/3.png)                                                                                                                |
-| Option Value   | The value of the radio button option. The "name" here corresponds to "Selected Value".<br />![Image Description](../../images/Controls/单选按钮/4.png)                                                                                                              |
+| Option Text    | The name of the radio button option. The "name" here corresponds to "Selected Text".<br />![Image Description](../../images/Controls/radiobutton/3.png)                                                                                                             |
+| Option Value   | The value of the radio button option. The "name" here corresponds to "Selected Value".<br />![Image Description](../../images/Controls/radiobutton/4.png)                                                                                                           |
 | Selected Text  | The corresponding text content of the current option.                                                                                                                                                                                                               |
 | Selected Value | The value of the current option.<br />Note: Selected Text and Selected Value can only choose one. After setting one option, the other option is disabled. Only after clearing the currently set option value or unbinding it will the other option become editable. |
 | Style          | The layout style of radio buttons. Includes horizontal and vertical.                                                                                                                                                                                                |
-| Fill Color     | The fill color of radio buttons.<br />![Image Description](../../images/Controls/单选按钮/5.png)                                                                                                                                                                    |
-| Border Color   | The border color of radio buttons.<br />![Image Description](../../images/Controls/单选按钮/6.png)                                                                                                                                                                  |
+| Fill Color     | The fill color of radio buttons.<br />![Image Description](../../images/Controls/radiobutton/5.png)                                                                                                                                                                 |
+| Border Color   | The border color of radio buttons.<br />![Image Description](../../images/Controls/radiobutton/6.png)                                                                                                                                                               |
 | Font           | Set the font of the text content. Includes font type, font size, font color, bold, italic, underline.                                                                                                                                                               |
 | Permission     | Set the permissions of the control, control display/hide or enable/disable                                                                                                                                                                                          |

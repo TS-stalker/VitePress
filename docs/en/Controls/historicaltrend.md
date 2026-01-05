@@ -2,7 +2,7 @@
 
 Historical trend chart controls are used to analyze and display the change trends of data over a past period. Through visual presentation of historical data, they help users analyze data patterns, identify anomalies, and perform trend predictions.
 
-![Image Description](../../images/Controls/历史趋势/1.png)
+![Image Description](../../images/Controls/historicaltrend/1.png)
 
 ## 2. Usage Scenarios
 
@@ -30,7 +30,7 @@ Historical trend controls are used in the following scenarios:
 
 This example is a device energy consumption analysis trend chart. Set the time range to the current day, configure the "Daily Power Consumption" curve, and discover abnormal energy consumption dates through trend analysis. As shown in Figure 1-1.
 
-![Image Description](../../images/Controls/历史趋势/2.gif)
+![Image Description](../../images/Controls/historicaltrend/2.gif)
 
 Figure 1-1
 

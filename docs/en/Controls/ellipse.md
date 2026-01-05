@@ -2,7 +2,7 @@
 
 Ellipse shape controls are used to create and edit elliptical graphic elements on the canvas. Through simple dragging and property adjustment, they achieve flexible graphic design, suitable for various scenarios such as interface decoration, data area division, and visual guidance.
 
-![Image Description](../../images/Controls/椭圆/1.png)
+![Image Description](../../images/Controls/ellipse/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Ellipse controls are used in the following scenarios:
 
 This example is creating a basic ellipse and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/椭圆/2.gif)
+![Image Description](../../images/Controls/ellipse/2.gif)
 
 Figure 1-1
 

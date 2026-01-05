@@ -2,7 +2,7 @@
 
 Rectangle shape controls are used to create and edit rectangular graphic elements on the canvas. Through intuitive drag operations and property configuration, they achieve precise graphic design, suitable for various application scenarios such as interface layout, content containers, and visual element creation.
 
-![Image Description](../../images/Controls/矩形/1.png)
+![Image Description](../../images/Controls/rectangle/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Rectangle controls are used in the following scenarios:
 
 This example is creating a rectangle and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/矩形/2.gif)
+![Image Description](../../images/Controls/rectangle/2.gif)
 
 Figure 1-1
 

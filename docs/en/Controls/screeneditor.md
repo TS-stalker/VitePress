@@ -5,7 +5,7 @@ All configuration screens are designed and drawn in DipuOne's built-in **WYSIWYG
 - **First Launch**: When opening a project, a welcome window will be displayed, providing quick launch options such as **new screen, new popup**.
 - **Subsequent Launches**: You can select previously created screen projects to **seamlessly continue work**.
 
-![Image Description](../../images/Controls/编辑器介绍/1.png)
+![Image Description](../../images/Controls/screeneditor/1.png)
 
 Figure 1-1
 
@@ -61,7 +61,7 @@ The editor top has a toolbar that provides shortcuts for a series of commonly us
 
 These tools can significantly improve the efficiency and quality of interface design. It is recommended to flexibly combine them according to actual needs.
 
-![Image Description](../../images/Controls/编辑器介绍/2.png)
+![Image Description](../../images/Controls/screeneditor/2.png)
 
 Figure 1-2
 
@@ -69,7 +69,7 @@ Figure 1-2
 
 The editor provides multiple functional windows that can be opened/closed, allowing you to flexibly configure according to work needs. Each window is controlled through sidebar icons or menus.
 
-![Image Description](../../images/Controls/编辑器介绍/3.png)
+![Image Description](../../images/Controls/screeneditor/3.png)
 
 Figure 1-3
 
@@ -98,7 +98,7 @@ Through this menu, you can organize and manage screens in the project.
 | Rename     | Rename the selected screen or popup.                           |
 | Delete     | Delete the selected screen or popup.                           |
 
-![Image Description](../../images/Controls/编辑器介绍/4.png)
+![Image Description](../../images/Controls/screeneditor/4.png)
 
 Figure 1-4
 
@@ -106,7 +106,7 @@ Figure 1-4
 
 The central core area of the interface, the **WYSIWYG** drawing workspace. Here you design and build interfaces by dragging controls and adjusting layouts.
 
-![Image Description](../../images/Controls/编辑器介绍/5.png)
+![Image Description](../../images/Controls/screeneditor/5.png)
 
 Figure 1-5
 
@@ -119,7 +119,7 @@ Used to configure global properties of the entire project, such as:
 - **Voice Settings**: Configure voice prompt functions during alarms, including voice on/off, volume, pitch, alarm text.
 - **Language Enablement**: To adapt to users from different countries, configure **which languages to enable** in the project. After configuration, users can switch to enabled language interfaces during runtime. **Chinese and English are enabled by default**.
 
-![Image Description](../../images/Controls/编辑器介绍/6.png)
+![Image Description](../../images/Controls/screeneditor/6.png)
 
 Figure 1-6
 
@@ -131,6 +131,6 @@ To test whether the interaction and functionality of the drawn screen meet expec
 - **Preview Effect**: The system will open the current screen in a **new browser tab**.
 - **Interaction Testing**: In preview mode, you can interact with controls like a real user, for example: click buttons to execute their script actions, or input values in input boxes to check variable update effects, thereby verifying that all bindings and script logic work correctly.
 
-![Image Description](../../images/Controls/编辑器介绍/7.png)
+![Image Description](../../images/Controls/screeneditor/7.png)
 
 Figure 1-7

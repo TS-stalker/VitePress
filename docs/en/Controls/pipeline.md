@@ -2,7 +2,7 @@
 
 Pipeline shape controls are used to create and edit pipeline graphics on the canvas, simulating physical pipelines in industrial processes, supporting multi-segment connections and custom styles, suitable for pipeline network drawing in process flow diagrams and system connection diagrams.
 
-![Image Description](../../images/Controls/管道/1.png)
+![Image Description](../../images/Controls/pipeline/1.png)
 
 ## 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Pipeline controls are used in the following scenarios:
 
 This example is creating a pipeline and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/管道/2.gif)
+![Image Description](../../images/Controls/pipeline/2.gif)
 
 Figure 1-1
 
@@ -56,7 +56,7 @@ In addition to general drawing operations, pipeline controls support the followi
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Double-click Pipeline Endpoint | Enter continuous drawing mode. The mouse will automatically snap to that endpoint, and you can continue dragging to draw the next connected pipeline segment, achieving uninterrupted pipeline network drawing. As shown in Figure 1-2. |
 
-![Image Description](../../images/Controls/管道/3.gif)
+![Image Description](../../images/Controls/pipeline/3.gif)
 
 Figure 1-2
 

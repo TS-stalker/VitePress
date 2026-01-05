@@ -2,7 +2,7 @@
 
 Round rectangle shape controls are used to create and edit rectangular graphic elements with rounded corners on the canvas. They combine the practicality of rectangles with the visual softness of rounded corners, and are widely used basic shape elements in modern interface design.
 
-![Image Description](../../images/Controls/圆角矩形/1.png)
+![Image Description](../../images/Controls/圆角roundrectangle/1.png)
 
 2. Usage Scenarios
 
@@ -32,7 +32,7 @@ Round rectangle controls are used in the following scenarios:
 
 This example is creating a round rectangle and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/圆角矩形/2.gif)
+![Image Description](../../images/Controls/圆角roundrectangle/2.gif)
 
 Figure 1-1
 

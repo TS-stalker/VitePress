@@ -2,7 +2,7 @@
 
 Straight line shape controls are used to create and edit straight line graphic elements on the canvas. As basic connection and separation tools, they play an important role in interface layout, chart creation, and visual guidance.
 
-![Image Description](../../images/Controls/直线/1.png)
+![Image Description](../../images/Controls/straightline/1.png)
 
 ## 2. Usage Scenarios
 
@@ -30,7 +30,7 @@ Straight line controls are used in the following scenarios:
 
 This example is creating a round rectangle and setting basic properties, as shown in Figure 1-1.
 
-![Image Description](../../images/Controls/直线/2.gif)
+![Image Description](../../images/Controls/straightline/2.gif)
 
 Figure 1-1
 
