@@ -576,6 +576,66 @@ export default defineConfig({
               },
             ],
           },
+          // Product Overview
+          {
+            text: "Product Overview",
+            collapsed: true,
+            items: [
+              {
+                text: "Version Update Instructions",
+                link: "/en/ProductOverview/versionupdateinstructions",
+              },
+              {
+                text: "Support and Assistance",
+                link: "/en/ProductOverview/supportandassistance",
+              },
+              {
+                text: "System Requirements",
+                link: "/en/ProductOverview/systemrequirements",
+              },
+            ],
+          },
+          // Installation and Upgrade
+          {
+            text: "Installation and Upgrade",
+            collapsed: true,
+            items: [
+              {
+                text: "Windows Environment",
+                link: "/en/InstallationUpgrade/windowsenv",
+              },
+              {
+                text: "Product License",
+                link: "/en/InstallationUpgrade/productlicense",
+              },
+            ],
+          },
+          // Quick Start
+          {
+            text: "Quick Start",
+            collapsed: true,
+            items: [
+              {
+                text: "Quick Start",
+                link: "/en/QuickStart/quickstart",
+              },
+            ],
+          },
+          // System Deploy
+          {
+            text: "System Deploy",
+            collapsed: true,
+            items: [
+              {
+                text: "Single Deploy",
+                link: "/en/SystemDeploy/singledeploy",
+              },
+              {
+                text: "Redundant Deploy",
+                link: "/en/SystemDeploy/redundantdeploy",
+              },
+            ],
+          },
           // Management Platform
           {
             text: "Management Platform",
@@ -666,6 +726,16 @@ export default defineConfig({
             text: "Screen Configuration",
             collapsed: true,
             items: [
+              {
+                text: "Outline",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Outline Description",
+                    link: "/en/Controls/outline", // 简化路径
+                  },
+                ],
+              },
               {
                 text: "Controls",
                 collapsed: true,
@@ -933,6 +1003,61 @@ export default defineConfig({
                     link: "/en/Controls/animation", // 简化路径
                   },
                 ],
+              },
+              {
+                text: "Attribute Binding",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Attribute Binding Introduction",
+                    link: "/en/Controls/attributebindintroduction", // 简化路径
+                  },
+                  {
+                    text: "Variable",
+                    link: "/en/Controls/variable",
+                  },
+                  {
+                    text: "Attribute",
+                    link: "/en/Controls/attribute",
+                  },
+                  {
+                    text: "Script",
+                    link: "/en/Controls/script",
+                  },
+                ],
+              },
+              {
+                text: "Project Attributes",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Project Attributes",
+                    link: "/en/Controls/projectattributes", // 简化路径
+                  },
+                ],
+              },
+            ],
+          },
+          // Configuration Cases
+          {
+            text: "Configuration Cases",
+            collapsed: true,
+            items: [
+              {
+                text: "Case 1: How to Configure Popups",
+                link: "/en/Example/case1",
+              },
+              {
+                text: "Case 2: How to Configure Animation",
+                link: "/en/Example/case2",
+              },
+              {
+                text: "Case 3: How to Create Variables",
+                link: "/en/Example/case3",
+              },
+              {
+                text: "Case 4: How to Export Reports Regularly",
+                link: "/en/Example/case4",
               },
             ],
           },
