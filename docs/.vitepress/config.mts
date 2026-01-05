@@ -2,7 +2,6 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: "/",
   vite: {
     server: {
       host: "0.0.0.0",
@@ -45,6 +44,7 @@ export default defineConfig({
       lang: "zh-CN",
       title: "DipuOne产品手册",
       description: "A VitePress Site",
+      link: "/zh-CN/",
       themeConfig: {
         // logo: "/logo.png",
         // 导航栏
