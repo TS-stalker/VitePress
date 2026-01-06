@@ -1,0 +1,17 @@
+/* 自定义主题样式 */
+html.dark {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+/* 确保主题类被正确应用 */
+.dark {
+  /* 暗色主题样式 */
+}
+
+.light {
+  /* 浅色主题样式 */
+}

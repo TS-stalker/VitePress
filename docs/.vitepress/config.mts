@@ -128,7 +128,7 @@ export default defineConfig({
           // 管理平台
           {
             text: "管理平台",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: "项目列表",
@@ -639,7 +639,7 @@ export default defineConfig({
           // Management Platform
           {
             text: "Management Platform",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: "Project List",
